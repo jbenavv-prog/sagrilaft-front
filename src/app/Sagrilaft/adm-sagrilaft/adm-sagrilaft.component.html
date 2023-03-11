@@ -1,0 +1,70 @@
+<div class="pb-1">
+    <mat-card class="header" [class.mat-elevation-z10]="true">
+        <img class="user-avatar" [src]="photoUrl" (click)="openSessionCard($event)" />
+        <mat-card class="session-card" [class.mat-elevation-z24]="true" (click)="$event.stopPropagation()">
+            <img class="user-avatar-session" [src]="photoUrl" alt="user-avatar" />
+            <mat-card-title class="session-title">{{name}}</mat-card-title>
+            <mat-card-subtitle>{{email}}</mat-card-subtitle>
+            <mat-divider inset></mat-divider>
+            <mat-card-actions align="middle">
+                <button class="btn btn-light" (click)="signOut()" mat-button>Cerrar sesión</button>
+            </mat-card-actions>
+        </mat-card>
+    </mat-card>
+
+    <mat-card class="form" [class.mat-elevation-z10]="true">
+        <img mat-card-image src="../../../assets/images/sagrilaft/thumbnail_banner-1.jpg" alt="Banner of Sagrilaft">
+        <mat-card-content>
+            <mat-tab-group mat-align-tabs="center">
+                <mat-tab>
+                    <ng-template mat-tab-label [ngSwitch]="isInitialDataComplete">
+                        Datos Iniciales
+                        <mat-icon class="check" *ngSwitchCase="true">check_circle_outline</mat-icon>
+                        <mat-icon class="error" *ngSwitchDefault>error_outline</mat-icon>
+                    </ng-template>
+                    <app-initial-data class="tab-content" [allStatus]="allStatus"></app-initial-data>
+                </mat-tab>
+                <mat-tab [disabled]="!canUpdate">
+                    <ng-template mat-tab-label [ngSwitch]="isAssociatesComplete">
+                        Asociados o Accionistas
+                        <mat-icon class="check" *ngSwitchCase="true">check_circle_outline</mat-icon>
+                        <mat-icon class="error" *ngSwitchDefault>error_outline</mat-icon>
+                    </ng-template>
+                    <app-associates class="tab-content" [allStatus]="allStatus"></app-associates>
+                </mat-tab>
+                <mat-tab [disabled]="!canUpdate">
+                    <ng-template mat-tab-label [ngSwitch]="isFinancialInformationComplete">
+                        Información Financiera
+                        <mat-icon class="check" *ngSwitchCase="true">check_circle_outline</mat-icon>
+                        <mat-icon class="error" *ngSwitchDefault>error_outline</mat-icon>
+                    </ng-template>
+                    <app-financial-information class="tab-content" [allStatus]="allStatus"></app-financial-information>
+                </mat-tab>
+                <mat-tab [disabled]="!canUpdate">
+                    <ng-template mat-tab-label [ngSwitch]="isMoneyLaunderingComplete">
+                        Lavado de activos
+                        <mat-icon class="check" *ngSwitchCase="true">check_circle_outline</mat-icon>
+                        <mat-icon class="error" *ngSwitchDefault>error_outline</mat-icon>
+                    </ng-template>
+                    <app-money-laundering class="tab-content" [allStatus]="allStatus"></app-money-laundering>
+                </mat-tab>
+                <mat-tab [disabled]="!canUpdate">
+                    <ng-template mat-tab-label [ngSwitch]="isStatementsComplete">
+                        Declaraciones
+                        <mat-icon class="check" *ngSwitchCase="true">check_circle_outline</mat-icon>
+                        <mat-icon class="error" *ngSwitchDefault>error_outline</mat-icon>
+                    </ng-template>
+                    <app-statements class="tab-content" [allStatus]="allStatus"></app-statements>
+                </mat-tab>
+                <mat-tab [disabled]="!canUpdate">
+                    <ng-template mat-tab-label [ngSwitch]="isDocumentUploadComplete">
+                        Carga Documentos
+                        <mat-icon class="check" *ngSwitchCase="true">check_circle_outline</mat-icon>
+                        <mat-icon class="error" *ngSwitchDefault>error_outline</mat-icon>
+                    </ng-template>
+                    <app-document-upload class="tab-content" [allStatus]="allStatus"></app-document-upload>
+                </mat-tab>
+            </mat-tab-group>
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -1,0 +1,67 @@
+<div class="financial-information">
+
+    <mat-card-title> Información Financiera </mat-card-title>
+    <mat-card-subtitle>2. Información Financiera</mat-card-subtitle>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+        <form [formGroup]="form" novalidate (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Ingresos Mensuales (Pesos)</mat-label>
+                        <input matInput formControlName="monthlyIncome">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Egresos Mensuales (Pesos)</mat-label>
+                        <input matInput formControlName="monthlyExpenses">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Activos (Pesos)</mat-label>
+                        <input matInput matInput formControlName="assets">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Pasivos (Pesos)</mat-label>
+                        <input matInput matInput formControlName="passives">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Patrimonio (Pesos)</mat-label>
+                        <input matInput matInput formControlName="patrimony">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Otros ingresos (Pesos)</mat-label>
+                        <input matInput matInput formControlName="otherIncome">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Concepto otros ingresos (Pesos)</mat-label>
+                        <input matInput matInput formControlName="conceptOtherIncome">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="actions" align="center">
+                <button mat-raised-button color="primary" type="submit">Guardar</button>
+            </div>
+        </form>
+    </mat-card-content>
+</div>

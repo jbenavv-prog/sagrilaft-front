@@ -1,0 +1,65 @@
+.associates {
+    min-height: 500px;
+}
+
+p {
+    font-family: Lato;
+}
+
+.add {
+    position: absolute;
+    right: 0.5px;
+}
+
+table {
+    width: 130%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+td.mat-cell {
+    padding: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.btn-edit {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.table-header {
+    width: 120%;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.button-remove-rows {
+    background: red;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.button-remove {
+    color: red;
+}
+
+.form-input {
+    padding-right: 5px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.mat-raised-button {
+    margin-right: 20px;
+    position: absolute;
+    margin-top: 40px;
+    bottom: 50px;
+}

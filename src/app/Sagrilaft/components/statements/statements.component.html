@@ -1,0 +1,123 @@
+<div class="statements">
+    <mat-card-title>Declaraciones</mat-card-title>
+    <mat-divider></mat-divider>
+    <form [formGroup]="form" novalidate (ngSubmit)="onSubmit()">
+        <mat-card-subtitle>Declaración de origen de fondos</mat-card-subtitle>
+        <div class="row">
+            <div class="col">
+                <span>Declaro expresamente que:</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>1. Tanto mi actividad, profesión u oficio (para el caso de personas naturales), como las de mi
+                    representada (en el caso de personas jurídicas) son licitas y son ejercidas dentro del marco legal y
+                    los recursos que poseo no provienen de actividades ilícitas de las contempladas en el Código Penal
+                    Colombiano.</p>
+                <p>2. La información que he suministrado en la solicitud de vinculación, contratos y en este documento
+                    es veraz y verificable y me comprometo a actualizarla cuando me lo soliciten.
+                </p>
+                <p>3. Los recursos que se deriven de este contrato no se destinarán a la financiación del terrorismo, ni
+                    al financiamiento de la proliferación de armas de destrucción masiva.
+                </p>
+                <p>4. Los recursos que poseo provienen de las siguientes fuentes (detallo ocupación, oficio, actividad o
+                    negocio):
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <mat-form-field appearance="fill">
+                    <mat-label>Origen</mat-label>
+                    <input matInput formControlName="sourceFunds">
+                </mat-form-field>
+            </div>
+        </div>
+        <mat-divider></mat-divider>
+        <mat-card-subtitle>Declaración no encontrarse en listas nacionales o internacionales para control LA/FT/FPADM
+        </mat-card-subtitle>
+        <div class="row">
+            <div class="col">
+                <p>Con el diligenciamiento de este formato declaro que ni yo ni mi reporesentada se nos encuentramos en
+                    ninguna lista restrictiva de las establecidas a nivel nacional o internacional en lo referente al
+                    lavado de activos, financiación del terrorismo, ni financiamiento de la proliferacion de armas de
+                    destrucción masiva; así mismo declaro que mis empleados, accionistas, miembros de la junta directiva
+                    o junta de socios, representantes legales y revisor fiscal (en caso de tenerlo), tampoco se
+                    encuentran reportados en ellas y asi mismo me comprometo a actualizar la información y reportarles
+                    si alguno de los antes mencionados es incluido en cualquiera de las listas restrictivas obligatorias
+                    en Colombia.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <section class="accept">
+                    <mat-checkbox formControlName="controlList">Aceptar</mat-checkbox>
+                </section>
+            </div>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="row">
+            <div class="col">
+                <mat-card-subtitle>Claúsula de Autorización</mat-card-subtitle>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span>Con la suscripción de este documento autorizo a COMWARE S.A. a : </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>1. Revelar mi información personal y de mis negocios, en caso de ser requerida por una autoridad
+                    competente en Colombia, como la UIAF o la Fiscalía General de la Nación </p>
+                <p>2. Ser consultado en las bases de datos que permitan prevenir el lavado de activos, financiación del
+                    terrorismo y financiamiento de la proliferación de armas de destrucción masiva.</p>
+                <p>
+                    Declaro que los recursos utilizados para el cumplimiento de las obligaciones a mi cargo, objeto de
+                    esta declaratoria no provienen ni provendrán de actividades ilícitas tales como el narcotráfico,
+                    terrorismo y financiamiento del terrorismo, lavado de activos, testaferrato, tráfico de
+                    estupefacientes o delitos contra el orden constitucional, o que de alguna manera contraríen las
+                    leyes de la república, la moral o las buenas costumbres. Igualmente se genera un compromiso con
+                    COMWARE S.A. para implementar las acciones conducentes a evitar ser utilizados sin conocimiento o
+                    con consentimiento como instrumento para el ocultamiento, manejo, inversión o aprovechamiento en
+                    cualquier forma de dinero u otros bienes provenientes de actividades delictivas o para dar
+                    apariencia de legalidad a estas actividades, por lo que se genera autorización para realizar las
+                    respectivas revisiones necesarias en las difernetes bases de datos.
+                </p>
+                <p>Como parte de las Políticas SAGRILAFT, COMWARE S.A. podrá terminar de manera unilateral e inmediata
+                    los contratos que tenga con la entidad que represento, cuando yo, la entidad, los socios o
+                    acicionistas y/o los administradores llegaren a ser:</p>
+                <p>1. vinculados por parte de las autoridades competentes a cualquier tipo de investigación por delitos
+                    de narcotráfico, terrorismo y finanicación del terrorismo, lavado de activos, testaferrato, tráfico
+                    de estupefacientes o delitos conexos a estos.
+                </p>
+                <p>2. Sea incluído en listas para el control de lavado de activos, financiación del terrorismo y
+                    financiamiento de la proliferación de armas de destrucción masiva administradas por cualquier
+                    autoridad nacional o extranjera.</p>
+                <p>3. Sea condeando por parte de las autoridades compententes en cualquier tipo de proceso judicial
+                    ralacionado con la comisión de delitos de igual o similar naturazleza a los indicados en esta
+                    cláusula.
+                </p>
+                <p>Quien suscibe este documento, indemnizará y mantendrá libre de cualquier daño a COMWARE S.A por
+                    cualquier multa o perjuicio que fueran probados y que sufra COMWARE S.A. por el incumplimiento de
+                    mis obligaciones en relación con la prevención de riesgo de lavado de activos y financiación del
+                    terrorismo y financiación de proliferación de armas de destrucción masiva, así como cualquier
+                    reclamo judicial, extrajudicial y/o administrativo que autoridades competentes inicien en contra de
+                    COMWARE S.A. por o en ocasión de dicho incumplimiento. De igual manera me (nos) comprometo (mos) a
+                    dar las explicaciones a que hubiere lugar originadas por el mencionado inclumplimiento a COMWARE
+                    S.A. y a los terceros que este le indique.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <section class="accept">
+                    <mat-checkbox formControlName="authorizationClause">Aceptar</mat-checkbox>
+                </section>
+            </div>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="actions" align="center">
+            <button mat-raised-button color="primary" type="submit">Guardar</button>
+        </div>
+    </form>
+</div>

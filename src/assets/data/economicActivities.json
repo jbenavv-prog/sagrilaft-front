@@ -1,0 +1,2966 @@
+[
+    {
+     "id": 1,
+     "ciiu": 111,
+     "description": "Cultivo de cereales (excepto arroz), legumbres y semillas oleaginosas",
+     "displayView": "111 - Cultivo de cereales (excepto arroz), legumbres y semillas oleaginosas"
+    },
+    {
+     "id": 2,
+     "ciiu": 112,
+     "description": "Cultivo de arroz",
+     "displayView": "112 - Cultivo de arroz"
+    },
+    {
+     "id": 3,
+     "ciiu": 113,
+     "description": "Cultivo de hortalizas, raíces y tubérculos",
+     "displayView": "113 - Cultivo de hortalizas, raíces y tubérculos"
+    },
+    {
+     "id": 4,
+     "ciiu": 114,
+     "description": "Cultivo de tabaco",
+     "displayView": "114 - Cultivo de tabaco"
+    },
+    {
+     "id": 5,
+     "ciiu": 115,
+     "description": "Cultivo de plantas textiles",
+     "displayView": "115 - Cultivo de plantas textiles"
+    },
+    {
+     "id": 6,
+     "ciiu": 119,
+     "description": "Otros cultivos transitorios n.c.p.",
+     "displayView": "119 - Otros cultivos transitorios n.c.p."
+    },
+    {
+     "id": 7,
+     "ciiu": 121,
+     "description": "Cultivo de frutas tropicales y subtropicales",
+     "displayView": "121 - Cultivo de frutas tropicales y subtropicales"
+    },
+    {
+     "id": 8,
+     "ciiu": 122,
+     "description": "Cultivo de plátano y banano",
+     "displayView": "122 - Cultivo de plátano y banano"
+    },
+    {
+     "id": 9,
+     "ciiu": 123,
+     "description": "Cultivo de café",
+     "displayView": "123 - Cultivo de café"
+    },
+    {
+     "id": 10,
+     "ciiu": 124,
+     "description": "Cultivo de caña de azúcar",
+     "displayView": "124 - Cultivo de caña de azúcar"
+    },
+    {
+     "id": 11,
+     "ciiu": 125,
+     "description": "Cultivo de flor de corte",
+     "displayView": "125 - Cultivo de flor de corte"
+    },
+    {
+     "id": 12,
+     "ciiu": 126,
+     "description": "Cultivo de palma para aceite (palma africana) y otros frutos oleaginosos",
+     "displayView": "126 - Cultivo de palma para aceite (palma africana) y otros frutos oleaginosos"
+    },
+    {
+     "id": 13,
+     "ciiu": 127,
+     "description": "Cultivo de plantas con las que se preparan bebidas",
+     "displayView": "127 - Cultivo de plantas con las que se preparan bebidas"
+    },
+    {
+     "id": 14,
+     "ciiu": 128,
+     "description": "Cultivo de especias y de plantas aromáticas y medicinales",
+     "displayView": "128 - Cultivo de especias y de plantas aromáticas y medicinales"
+    },
+    {
+     "id": 15,
+     "ciiu": 129,
+     "description": "Otros cultivos permanentes n.c.p.",
+     "displayView": "129 - Otros cultivos permanentes n.c.p."
+    },
+    {
+     "id": 16,
+     "ciiu": 130,
+     "description": "Propagación de plantas (actividades de los viveros, excepto viveros forestales)",
+     "displayView": "130 - Propagación de plantas (actividades de los viveros, excepto viveros forestales)"
+    },
+    {
+     "id": 17,
+     "ciiu": 141,
+     "description": "Cría de ganado bovino y bufalino",
+     "displayView": "141 - Cría de ganado bovino y bufalino"
+    },
+    {
+     "id": 18,
+     "ciiu": 142,
+     "description": "Cría de caballos y otros equinos",
+     "displayView": "142 - Cría de caballos y otros equinos"
+    },
+    {
+     "id": 19,
+     "ciiu": 143,
+     "description": "Cría de ovejas y cabras",
+     "displayView": "143 - Cría de ovejas y cabras"
+    },
+    {
+     "id": 20,
+     "ciiu": 144,
+     "description": "Cría de ganado porcino",
+     "displayView": "144 - Cría de ganado porcino"
+    },
+    {
+     "id": 21,
+     "ciiu": 145,
+     "description": "Cría de aves de corral",
+     "displayView": "145 - Cría de aves de corral"
+    },
+    {
+     "id": 22,
+     "ciiu": 149,
+     "description": "Cría de otros animales n.c.p.",
+     "displayView": "149 - Cría de otros animales n.c.p."
+    },
+    {
+     "id": 23,
+     "ciiu": 150,
+     "description": "Explotación mixta (agrícola y pecuaria)",
+     "displayView": "150 - Explotación mixta (agrícola y pecuaria)"
+    },
+    {
+     "id": 24,
+     "ciiu": 161,
+     "description": "Actividades de apoyo a la agricultura",
+     "displayView": "161 - Actividades de apoyo a la agricultura"
+    },
+    {
+     "id": 25,
+     "ciiu": 162,
+     "description": "Actividades de apoyo a la ganadería",
+     "displayView": "162 - Actividades de apoyo a la ganadería"
+    },
+    {
+     "id": 26,
+     "ciiu": 163,
+     "description": "Actividades posteriores a la cosecha",
+     "displayView": "163 - Actividades posteriores a la cosecha"
+    },
+    {
+     "id": 27,
+     "ciiu": 164,
+     "description": "Tratamiento de semillas para propagación",
+     "displayView": "164 - Tratamiento de semillas para propagación"
+    },
+    {
+     "id": 28,
+     "ciiu": 170,
+     "description": "Caza ordinaria y mediante trampas y actividades de servicios conexas",
+     "displayView": "170 - Caza ordinaria y mediante trampas y actividades de servicios conexas"
+    },
+    {
+     "id": 29,
+     "ciiu": 210,
+     "description": "Silvicultura y otras actividades forestales",
+     "displayView": "210 - Silvicultura y otras actividades forestales"
+    },
+    {
+     "id": 30,
+     "ciiu": 220,
+     "description": "Extracción de madera",
+     "displayView": "220 - Extracción de madera"
+    },
+    {
+     "id": 31,
+     "ciiu": 230,
+     "description": "Recolección de productos forestales diferentes a la madera",
+     "displayView": "230 - Recolección de productos forestales diferentes a la madera"
+    },
+    {
+     "id": 32,
+     "ciiu": 240,
+     "description": "Servicios de apoyo a la silvicultura",
+     "displayView": "240 - Servicios de apoyo a la silvicultura"
+    },
+    {
+     "id": 33,
+     "ciiu": 311,
+     "description": "Pesca marítima",
+     "displayView": "311 - Pesca marítima"
+    },
+    {
+     "id": 34,
+     "ciiu": 312,
+     "description": "Pesca de agua dulce",
+     "displayView": "312 - Pesca de agua dulce"
+    },
+    {
+     "id": 35,
+     "ciiu": 321,
+     "description": "Acuicultura marítima",
+     "displayView": "321 - Acuicultura marítima"
+    },
+    {
+     "id": 36,
+     "ciiu": 322,
+     "description": "Acuicultura de agua dulce",
+     "displayView": "322 - Acuicultura de agua dulce"
+    },
+    {
+     "id": 37,
+     "ciiu": 510,
+     "description": "Extracción de hulla (carbón de piedra)",
+     "displayView": "510 - Extracción de hulla (carbón de piedra)"
+    },
+    {
+     "id": 38,
+     "ciiu": 520,
+     "description": "Extracción de carbón lignito",
+     "displayView": "520 - Extracción de carbón lignito"
+    },
+    {
+     "id": 39,
+     "ciiu": 610,
+     "description": "Extracción de petróleo crudo",
+     "displayView": "610 - Extracción de petróleo crudo"
+    },
+    {
+     "id": 40,
+     "ciiu": 620,
+     "description": "Extracción de gas natural",
+     "displayView": "620 - Extracción de gas natural"
+    },
+    {
+     "id": 41,
+     "ciiu": 710,
+     "description": "Extracción de minerales de hierro",
+     "displayView": "710 - Extracción de minerales de hierro"
+    },
+    {
+     "id": 42,
+     "ciiu": 721,
+     "description": "Extracción de minerales de uranio y de torio",
+     "displayView": "721 - Extracción de minerales de uranio y de torio"
+    },
+    {
+     "id": 43,
+     "ciiu": 722,
+     "description": "Extracción de oro y otros metales preciosos",
+     "displayView": "722 - Extracción de oro y otros metales preciosos"
+    },
+    {
+     "id": 44,
+     "ciiu": 723,
+     "description": "Extracción de minerales de níquel",
+     "displayView": "723 - Extracción de minerales de níquel"
+    },
+    {
+     "id": 45,
+     "ciiu": 729,
+     "description": "Extracción de otros minerales metalíferos no ferrosos n.c.p.",
+     "displayView": "729 - Extracción de otros minerales metalíferos no ferrosos n.c.p."
+    },
+    {
+     "id": 46,
+     "ciiu": 811,
+     "description": "Extracción de piedra, arena, arcillas comunes, yeso y anhidrita",
+     "displayView": "811 - Extracción de piedra, arena, arcillas comunes, yeso y anhidrita"
+    },
+    {
+     "id": 47,
+     "ciiu": 812,
+     "description": "Extracción de arcillas de uso industrial, caliza, caolín y bentonitas",
+     "displayView": "812 - Extracción de arcillas de uso industrial, caliza, caolín y bentonitas"
+    },
+    {
+     "id": 48,
+     "ciiu": 820,
+     "description": "Extracción de esmeraldas, piedras preciosas y semipreciosas",
+     "displayView": "820 - Extracción de esmeraldas, piedras preciosas y semipreciosas"
+    },
+    {
+     "id": 49,
+     "ciiu": 891,
+     "description": "Extracción de minerales para la fabricación de abonos y productos químicos",
+     "displayView": "891 - Extracción de minerales para la fabricación de abonos y productos químicos"
+    },
+    {
+     "id": 50,
+     "ciiu": 892,
+     "description": "Extracción de halita (sal)",
+     "displayView": "892 - Extracción de halita (sal)"
+    },
+    {
+     "id": 51,
+     "ciiu": 899,
+     "description": "Extracción de otros minerales no metálicos n.c.p.",
+     "displayView": "899 - Extracción de otros minerales no metálicos n.c.p."
+    },
+    {
+     "id": 52,
+     "ciiu": 910,
+     "description": "Actividades de apoyo para la extracción de petróleo y de gas natural",
+     "displayView": "910 - Actividades de apoyo para la extracción de petróleo y de gas natural"
+    },
+    {
+     "id": 53,
+     "ciiu": 990,
+     "description": "Actividades de apoyo para otras actividades de explotación de minas y canteras",
+     "displayView": "990 - Actividades de apoyo para otras actividades de explotación de minas y canteras"
+    },
+    {
+     "id": 54,
+     "ciiu": 1011,
+     "description": "Procesamiento y conservación de carne y productos cárnicos",
+     "displayView": "1011 - Procesamiento y conservación de carne y productos cárnicos"
+    },
+    {
+     "id": 55,
+     "ciiu": 1012,
+     "description": "Procesamiento y conservación de pescados, crustáceos y moluscos",
+     "displayView": "1012 - Procesamiento y conservación de pescados, crustáceos y moluscos"
+    },
+    {
+     "id": 56,
+     "ciiu": 1020,
+     "description": "Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",
+     "displayView": "1020 - Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos"
+    },
+    {
+     "id": 57,
+     "ciiu": 1030,
+     "description": "Elaboración de aceites y grasas de origen vegetal y animal",
+     "displayView": "1030 - Elaboración de aceites y grasas de origen vegetal y animal"
+    },
+    {
+     "id": 58,
+     "ciiu": 1040,
+     "description": "Elaboración de productos lácteos",
+     "displayView": "1040 - Elaboración de productos lácteos"
+    },
+    {
+     "id": 59,
+     "ciiu": 1051,
+     "description": "Elaboración de productos de molinería",
+     "displayView": "1051 - Elaboración de productos de molinería"
+    },
+    {
+     "id": 60,
+     "ciiu": 1052,
+     "description": "Elaboración de almidones y productos derivados del almidón",
+     "displayView": "1052 - Elaboración de almidones y productos derivados del almidón"
+    },
+    {
+     "id": 61,
+     "ciiu": 1061,
+     "description": "Trilla de café",
+     "displayView": "1061 - Trilla de café"
+    },
+    {
+     "id": 62,
+     "ciiu": 1062,
+     "description": "Descafeinado, tostión y molienda del café",
+     "displayView": "1062 - Descafeinado, tostión y molienda del café"
+    },
+    {
+     "id": 63,
+     "ciiu": 1063,
+     "description": "Otros derivados del café",
+     "displayView": "1063 - Otros derivados del café"
+    },
+    {
+     "id": 64,
+     "ciiu": 1071,
+     "description": "Elaboración y refinación de azúcar",
+     "displayView": "1071 - Elaboración y refinación de azúcar"
+    },
+    {
+     "id": 65,
+     "ciiu": 1072,
+     "description": "Elaboración de panela",
+     "displayView": "1072 - Elaboración de panela"
+    },
+    {
+     "id": 66,
+     "ciiu": 1081,
+     "description": "Elaboración de productos de panadería",
+     "displayView": "1081 - Elaboración de productos de panadería"
+    },
+    {
+     "id": 67,
+     "ciiu": 1082,
+     "description": "Elaboración de cacao, chocolate y productos de confitería",
+     "displayView": "1082 - Elaboración de cacao, chocolate y productos de confitería"
+    },
+    {
+     "id": 68,
+     "ciiu": 1083,
+     "description": "Elaboración de macarrones, fideos, alcuzcuz y productos farináceos similares",
+     "displayView": "1083 - Elaboración de macarrones, fideos, alcuzcuz y productos farináceos similares"
+    },
+    {
+     "id": 69,
+     "ciiu": 1084,
+     "description": "Elaboración de comidas y platos preparados",
+     "displayView": "1084 - Elaboración de comidas y platos preparados"
+    },
+    {
+     "id": 70,
+     "ciiu": 1089,
+     "description": "Elaboración de otros productos alimenticios n.c.p.",
+     "displayView": "1089 - Elaboración de otros productos alimenticios n.c.p."
+    },
+    {
+     "id": 71,
+     "ciiu": 1090,
+     "description": "Elaboración de alimentos preparados para animales",
+     "displayView": "1090 - Elaboración de alimentos preparados para animales"
+    },
+    {
+     "id": 72,
+     "ciiu": 1101,
+     "description": "Destilación, rectificación y mezcla de bebidas alcohólicas",
+     "displayView": "1101 - Destilación, rectificación y mezcla de bebidas alcohólicas"
+    },
+    {
+     "id": 73,
+     "ciiu": 1102,
+     "description": "Elaboración de bebidas fermentadas no destiladas",
+     "displayView": "1102 - Elaboración de bebidas fermentadas no destiladas"
+    },
+    {
+     "id": 74,
+     "ciiu": 1103,
+     "description": "Producción de malta, elaboración de cervezas y otras bebidas malteadas",
+     "displayView": "1103 - Producción de malta, elaboración de cervezas y otras bebidas malteadas"
+    },
+    {
+     "id": 75,
+     "ciiu": 1104,
+     "description": "Elaboración de bebidas no alcohólicas, producción de aguas minerales y de otras aguas embotelladas",
+     "displayView": "1104 - Elaboración de bebidas no alcohólicas, producción de aguas minerales y de otras aguas embotelladas"
+    },
+    {
+     "id": 76,
+     "ciiu": 1200,
+     "description": "Elaboración de productos de tabaco",
+     "displayView": "1200 - Elaboración de productos de tabaco"
+    },
+    {
+     "id": 77,
+     "ciiu": 1311,
+     "description": "Preparación e hilatura de fibras textiles",
+     "displayView": "1311 - Preparación e hilatura de fibras textiles"
+    },
+    {
+     "id": 78,
+     "ciiu": 1312,
+     "description": "Tejeduría de productos textiles",
+     "displayView": "1312 - Tejeduría de productos textiles"
+    },
+    {
+     "id": 79,
+     "ciiu": 1313,
+     "description": "Acabado de productos textiles",
+     "displayView": "1313 - Acabado de productos textiles"
+    },
+    {
+     "id": 80,
+     "ciiu": 1391,
+     "description": "Fabricación de tejidos de punto y ganchillo",
+     "displayView": "1391 - Fabricación de tejidos de punto y ganchillo"
+    },
+    {
+     "id": 81,
+     "ciiu": 1392,
+     "description": "Confección de artículos con materiales textiles, excepto prendas de vestir",
+     "displayView": "1392 - Confección de artículos con materiales textiles, excepto prendas de vestir"
+    },
+    {
+     "id": 82,
+     "ciiu": 1393,
+     "description": "Fabricación de tapetes y alfombras para pisos",
+     "displayView": "1393 - Fabricación de tapetes y alfombras para pisos"
+    },
+    {
+     "id": 83,
+     "ciiu": 1394,
+     "description": "Fabricación de cuerdas, cordeles, cables, bramantes y redes",
+     "displayView": "1394 - Fabricación de cuerdas, cordeles, cables, bramantes y redes"
+    },
+    {
+     "id": 84,
+     "ciiu": 1399,
+     "description": "Fabricación de otros artículos textiles n.c.p.",
+     "displayView": "1399 - Fabricación de otros artículos textiles n.c.p."
+    },
+    {
+     "id": 85,
+     "ciiu": 1410,
+     "description": "Confección de prendas de vestir, excepto prendas de piel",
+     "displayView": "1410 - Confección de prendas de vestir, excepto prendas de piel"
+    },
+    {
+     "id": 86,
+     "ciiu": 1420,
+     "description": "Fabricación de artículos de piel",
+     "displayView": "1420 - Fabricación de artículos de piel"
+    },
+    {
+     "id": 87,
+     "ciiu": 1430,
+     "description": "Fabricación de artículos de punto y ganchillo",
+     "displayView": "1430 - Fabricación de artículos de punto y ganchillo"
+    },
+    {
+     "id": 88,
+     "ciiu": 1511,
+     "description": "Curtido y recurtido de cueros; recurtido y teñido de pieles",
+     "displayView": "1511 - Curtido y recurtido de cueros; recurtido y teñido de pieles"
+    },
+    {
+     "id": 89,
+     "ciiu": 1512,
+     "description": "Fabricación de artículos de viaje, bolsos de mano y artículos similares elaborados en cuero, y fabricación de artículos de talabartería y guarnicionería",
+     "displayView": "1512 - Fabricación de artículos de viaje, bolsos de mano y artículos similares elaborados en cuero, y fabricación de artículos de talabartería y guarnicionería"
+    },
+    {
+     "id": 90,
+     "ciiu": 1513,
+     "description": "Fabricación de artículos de viaje, bolsos de mano y artículos similares; artículos de talabartería y guarnicionería elaborados en otros materiales",
+     "displayView": "1513 - Fabricación de artículos de viaje, bolsos de mano y artículos similares; artículos de talabartería y guarnicionería elaborados en otros materiales"
+    },
+    {
+     "id": 91,
+     "ciiu": 1521,
+     "description": "Fabricación de calzado de cuero y piel, con cualquier tipo de suela",
+     "displayView": "1521 - Fabricación de calzado de cuero y piel, con cualquier tipo de suela"
+    },
+    {
+     "id": 92,
+     "ciiu": 1522,
+     "description": "Fabricación de otros tipos de calzado, excepto calzado de cuero y piel",
+     "displayView": "1522 - Fabricación de otros tipos de calzado, excepto calzado de cuero y piel"
+    },
+    {
+     "id": 93,
+     "ciiu": 1523,
+     "description": "Fabricación de partes del calzado",
+     "displayView": "1523 - Fabricación de partes del calzado"
+    },
+    {
+     "id": 94,
+     "ciiu": 1610,
+     "description": "Aserrado, acepillado e impregnación de la madera",
+     "displayView": "1610 - Aserrado, acepillado e impregnación de la madera"
+    },
+    {
+     "id": 95,
+     "ciiu": 1620,
+     "description": "Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros laminados, tableros de partículas y otros tableros y paneles",
+     "displayView": "1620 - Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros laminados, tableros de partículas y otros tableros y paneles"
+    },
+    {
+     "id": 96,
+     "ciiu": 1630,
+     "description": "Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",
+     "displayView": "1630 - Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción"
+    },
+    {
+     "id": 97,
+     "ciiu": 1640,
+     "description": "Fabricación de recipientes de madera",
+     "displayView": "1640 - Fabricación de recipientes de madera"
+    },
+    {
+     "id": 98,
+     "ciiu": 1690,
+     "description": "Fabricación de otros productos de madera; fabricación de artículos de corcho, cestería y espartería",
+     "displayView": "1690 - Fabricación de otros productos de madera; fabricación de artículos de corcho, cestería y espartería"
+    },
+    {
+     "id": 99,
+     "ciiu": 1701,
+     "description": "Fabricación de pulpas (pastas) celulósicas; papel y cartón",
+     "displayView": "1701 - Fabricación de pulpas (pastas) celulósicas; papel y cartón"
+    },
+    {
+     "id": 100,
+     "ciiu": 1702,
+     "description": "Fabricación de papel y cartón ondulado (corrugado); fabricación de envases, empaques y de embalajes de papel y cartón.",
+     "displayView": "1702 - Fabricación de papel y cartón ondulado (corrugado); fabricación de envases, empaques y de embalajes de papel y cartón."
+    },
+    {
+     "id": 101,
+     "ciiu": 1709,
+     "description": "Fabricación de otros artículos de papel y cartón",
+     "displayView": "1709 - Fabricación de otros artículos de papel y cartón"
+    },
+    {
+     "id": 102,
+     "ciiu": 1811,
+     "description": "Actividades de impresión",
+     "displayView": "1811 - Actividades de impresión"
+    },
+    {
+     "id": 103,
+     "ciiu": 1812,
+     "description": "Actividades de servicios relacionados con la impresión",
+     "displayView": "1812 - Actividades de servicios relacionados con la impresión"
+    },
+    {
+     "id": 104,
+     "ciiu": 1820,
+     "description": "Producción de copias a partir de grabaciones originales",
+     "displayView": "1820 - Producción de copias a partir de grabaciones originales"
+    },
+    {
+     "id": 105,
+     "ciiu": 1910,
+     "description": "Fabricación de productos de hornos de coque",
+     "displayView": "1910 - Fabricación de productos de hornos de coque"
+    },
+    {
+     "id": 106,
+     "ciiu": 1921,
+     "description": "Fabricación de productos de la refinación del petróleo",
+     "displayView": "1921 - Fabricación de productos de la refinación del petróleo"
+    },
+    {
+     "id": 107,
+     "ciiu": 1922,
+     "description": "Actividad de mezcla de combustibles",
+     "displayView": "1922 - Actividad de mezcla de combustibles"
+    },
+    {
+     "id": 108,
+     "ciiu": 2011,
+     "description": "Fabricación de sustancias y productos químicos básicos",
+     "displayView": "2011 - Fabricación de sustancias y productos químicos básicos"
+    },
+    {
+     "id": 109,
+     "ciiu": 2012,
+     "description": "Fabricación de abonos y compuestos inorgánicos nitrogenados",
+     "displayView": "2012 - Fabricación de abonos y compuestos inorgánicos nitrogenados"
+    },
+    {
+     "id": 110,
+     "ciiu": 2013,
+     "description": "Fabricación de plásticos en formas primarias",
+     "displayView": "2013 - Fabricación de plásticos en formas primarias"
+    },
+    {
+     "id": 111,
+     "ciiu": 2014,
+     "description": "Fabricación de caucho sintético en formas primarias",
+     "displayView": "2014 - Fabricación de caucho sintético en formas primarias"
+    },
+    {
+     "id": 112,
+     "ciiu": 2021,
+     "description": "Fabricación de plaguicidas y otros productos químicos de uso agropecuario",
+     "displayView": "2021 - Fabricación de plaguicidas y otros productos químicos de uso agropecuario"
+    },
+    {
+     "id": 113,
+     "ciiu": 2022,
+     "description": "Fabricación de pinturas, barnices y revestimientos similares, tintas para impresión y masillas",
+     "displayView": "2022 - Fabricación de pinturas, barnices y revestimientos similares, tintas para impresión y masillas"
+    },
+    {
+     "id": 114,
+     "ciiu": 2023,
+     "description": "Fabricación de jabones y detergentes, preparados para limpiar y pulir; perfumes y preparados de tocador",
+     "displayView": "2023 - Fabricación de jabones y detergentes, preparados para limpiar y pulir; perfumes y preparados de tocador"
+    },
+    {
+     "id": 115,
+     "ciiu": 2029,
+     "description": "Fabricación de otros productos químicos n.c.p.",
+     "displayView": "2029 - Fabricación de otros productos químicos n.c.p."
+    },
+    {
+     "id": 116,
+     "ciiu": 2030,
+     "description": "Fabricación de fibras sintéticas y artificiales",
+     "displayView": "2030 - Fabricación de fibras sintéticas y artificiales"
+    },
+    {
+     "id": 117,
+     "ciiu": 2100,
+     "description": "Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico",
+     "displayView": "2100 - Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico"
+    },
+    {
+     "id": 118,
+     "ciiu": 2211,
+     "description": "Fabricación de llantas y neumáticos de caucho",
+     "displayView": "2211 - Fabricación de llantas y neumáticos de caucho"
+    },
+    {
+     "id": 119,
+     "ciiu": 2212,
+     "description": "Reencauche de llantas usadas",
+     "displayView": "2212 - Reencauche de llantas usadas"
+    },
+    {
+     "id": 120,
+     "ciiu": 2219,
+     "description": "Fabricación de formas básicas de caucho y otros productos de caucho n.c.p.",
+     "displayView": "2219 - Fabricación de formas básicas de caucho y otros productos de caucho n.c.p."
+    },
+    {
+     "id": 121,
+     "ciiu": 2221,
+     "description": "Fabricación de formas básicas de plástico",
+     "displayView": "2221 - Fabricación de formas básicas de plástico"
+    },
+    {
+     "id": 122,
+     "ciiu": 2229,
+     "description": "Fabricación de artículos de plástico n.c.p.",
+     "displayView": "2229 - Fabricación de artículos de plástico n.c.p."
+    },
+    {
+     "id": 123,
+     "ciiu": 2310,
+     "description": "Fabricación de vidrio y productos de vidrio",
+     "displayView": "2310 - Fabricación de vidrio y productos de vidrio"
+    },
+    {
+     "id": 124,
+     "ciiu": 2391,
+     "description": "Fabricación de productos refractarios",
+     "displayView": "2391 - Fabricación de productos refractarios"
+    },
+    {
+     "id": 125,
+     "ciiu": 2392,
+     "description": "Fabricación de materiales de arcilla para la construcción",
+     "displayView": "2392 - Fabricación de materiales de arcilla para la construcción"
+    },
+    {
+     "id": 126,
+     "ciiu": 2393,
+     "description": "Fabricación de otros productos de cerámica y porcelana",
+     "displayView": "2393 - Fabricación de otros productos de cerámica y porcelana"
+    },
+    {
+     "id": 127,
+     "ciiu": 2394,
+     "description": "Fabricación de cemento, cal y yeso",
+     "displayView": "2394 - Fabricación de cemento, cal y yeso"
+    },
+    {
+     "id": 128,
+     "ciiu": 2395,
+     "description": "Fabricación de artículos de hormigón, cemento y yeso",
+     "displayView": "2395 - Fabricación de artículos de hormigón, cemento y yeso"
+    },
+    {
+     "id": 129,
+     "ciiu": 2396,
+     "description": "Corte, tallado y acabado de la piedra",
+     "displayView": "2396 - Corte, tallado y acabado de la piedra"
+    },
+    {
+     "id": 130,
+     "ciiu": 2399,
+     "description": "Fabricación de otros productos minerales no metálicos n.c.p.",
+     "displayView": "2399 - Fabricación de otros productos minerales no metálicos n.c.p."
+    },
+    {
+     "id": 131,
+     "ciiu": 2410,
+     "description": "Industrias básicas de hierro y de acero",
+     "displayView": "2410 - Industrias básicas de hierro y de acero"
+    },
+    {
+     "id": 132,
+     "ciiu": 2421,
+     "description": "Industrias básicas de metales preciosos",
+     "displayView": "2421 - Industrias básicas de metales preciosos"
+    },
+    {
+     "id": 133,
+     "ciiu": 2429,
+     "description": "Industrias básicas de otros metales no ferrosos",
+     "displayView": "2429 - Industrias básicas de otros metales no ferrosos"
+    },
+    {
+     "id": 134,
+     "ciiu": 2431,
+     "description": "Fundición de hierro y de acero",
+     "displayView": "2431 - Fundición de hierro y de acero"
+    },
+    {
+     "id": 135,
+     "ciiu": 2432,
+     "description": "Fundición de metales no ferrosos",
+     "displayView": "2432 - Fundición de metales no ferrosos"
+    },
+    {
+     "id": 136,
+     "ciiu": 2511,
+     "description": "Fabricación de productos metálicos para uso estructural",
+     "displayView": "2511 - Fabricación de productos metálicos para uso estructural"
+    },
+    {
+     "id": 137,
+     "ciiu": 2512,
+     "description": "Fabricación de tanques, depósitos y recipientes de metal, excepto los utilizados para el envase o transporte de mercancías",
+     "displayView": "2512 - Fabricación de tanques, depósitos y recipientes de metal, excepto los utilizados para el envase o transporte de mercancías"
+    },
+    {
+     "id": 138,
+     "ciiu": 2513,
+     "description": "Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central",
+     "displayView": "2513 - Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central"
+    },
+    {
+     "id": 139,
+     "ciiu": 2520,
+     "description": "Fabricación de armas y municiones",
+     "displayView": "2520 - Fabricación de armas y municiones"
+    },
+    {
+     "id": 140,
+     "ciiu": 2591,
+     "description": "Forja, prensado, estampado y laminado de metal; pulvimetalurgia",
+     "displayView": "2591 - Forja, prensado, estampado y laminado de metal; pulvimetalurgia"
+    },
+    {
+     "id": 141,
+     "ciiu": 2592,
+     "description": "Tratamiento y revestimiento de metales; mecanizado",
+     "displayView": "2592 - Tratamiento y revestimiento de metales; mecanizado"
+    },
+    {
+     "id": 142,
+     "ciiu": 2593,
+     "description": "Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería",
+     "displayView": "2593 - Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería"
+    },
+    {
+     "id": 143,
+     "ciiu": 2599,
+     "description": "Fabricación de otros productos elaborados de metal n.c.p.",
+     "displayView": "2599 - Fabricación de otros productos elaborados de metal n.c.p."
+    },
+    {
+     "id": 144,
+     "ciiu": 2610,
+     "description": "Fabricación de componentes y tableros electrónicos",
+     "displayView": "2610 - Fabricación de componentes y tableros electrónicos"
+    },
+    {
+     "id": 145,
+     "ciiu": 2620,
+     "description": "Fabricación de computadoras y de equipo periférico",
+     "displayView": "2620 - Fabricación de computadoras y de equipo periférico"
+    },
+    {
+     "id": 146,
+     "ciiu": 2630,
+     "description": "Fabricación de equipos de comunicación",
+     "displayView": "2630 - Fabricación de equipos de comunicación"
+    },
+    {
+     "id": 147,
+     "ciiu": 2640,
+     "description": "Fabricación de aparatos electrónicos de consumo",
+     "displayView": "2640 - Fabricación de aparatos electrónicos de consumo"
+    },
+    {
+     "id": 148,
+     "ciiu": 2651,
+     "description": "Fabricación de equipo de medición, prueba, navegación y control",
+     "displayView": "2651 - Fabricación de equipo de medición, prueba, navegación y control"
+    },
+    {
+     "id": 149,
+     "ciiu": 2652,
+     "description": "Fabricación de relojes",
+     "displayView": "2652 - Fabricación de relojes"
+    },
+    {
+     "id": 150,
+     "ciiu": 2660,
+     "description": "Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico",
+     "displayView": "2660 - Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico"
+    },
+    {
+     "id": 151,
+     "ciiu": 2670,
+     "description": "Fabricación de instrumentos ópticos y equipo fotográfico",
+     "displayView": "2670 - Fabricación de instrumentos ópticos y equipo fotográfico"
+    },
+    {
+     "id": 152,
+     "ciiu": 2680,
+     "description": "Fabricación de medios magnéticos y ópticos para almacenamiento de datos",
+     "displayView": "2680 - Fabricación de medios magnéticos y ópticos para almacenamiento de datos"
+    },
+    {
+     "id": 153,
+     "ciiu": 2711,
+     "description": "Fabricación de motores, generadores y transformadores eléctricos",
+     "displayView": "2711 - Fabricación de motores, generadores y transformadores eléctricos"
+    },
+    {
+     "id": 154,
+     "ciiu": 2712,
+     "description": "Fabricación de aparatos de distribución y control de la energía eléctrica",
+     "displayView": "2712 - Fabricación de aparatos de distribución y control de la energía eléctrica"
+    },
+    {
+     "id": 155,
+     "ciiu": 2720,
+     "description": "Fabricación de pilas, baterías y acumuladores eléctricos",
+     "displayView": "2720 - Fabricación de pilas, baterías y acumuladores eléctricos"
+    },
+    {
+     "id": 156,
+     "ciiu": 2731,
+     "description": "Fabricación de hilos y cables eléctricos y de fibra óptica",
+     "displayView": "2731 - Fabricación de hilos y cables eléctricos y de fibra óptica"
+    },
+    {
+     "id": 157,
+     "ciiu": 2732,
+     "description": "Fabricación de dispositivos de cableado",
+     "displayView": "2732 - Fabricación de dispositivos de cableado"
+    },
+    {
+     "id": 158,
+     "ciiu": 2740,
+     "description": "Fabricación de equipos eléctricos de iluminación",
+     "displayView": "2740 - Fabricación de equipos eléctricos de iluminación"
+    },
+    {
+     "id": 159,
+     "ciiu": 2750,
+     "description": "Fabricación de aparatos de uso doméstico",
+     "displayView": "2750 - Fabricación de aparatos de uso doméstico"
+    },
+    {
+     "id": 160,
+     "ciiu": 2790,
+     "description": "Fabricación de otros tipos de equipo eléctrico n.c.p.",
+     "displayView": "2790 - Fabricación de otros tipos de equipo eléctrico n.c.p."
+    },
+    {
+     "id": 161,
+     "ciiu": 2811,
+     "description": "Fabricación de motores, turbinas, y partes para motores de combustión interna",
+     "displayView": "2811 - Fabricación de motores, turbinas, y partes para motores de combustión interna"
+    },
+    {
+     "id": 162,
+     "ciiu": 2812,
+     "description": "Fabricación de equipos de potencia hidráulica y neumática",
+     "displayView": "2812 - Fabricación de equipos de potencia hidráulica y neumática"
+    },
+    {
+     "id": 163,
+     "ciiu": 2813,
+     "description": "Fabricación de otras bombas, compresores, grifos y válvulas",
+     "displayView": "2813 - Fabricación de otras bombas, compresores, grifos y válvulas"
+    },
+    {
+     "id": 164,
+     "ciiu": 2814,
+     "description": "Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión",
+     "displayView": "2814 - Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión"
+    },
+    {
+     "id": 165,
+     "ciiu": 2815,
+     "description": "Fabricación de hornos, hogares y quemadores industriales",
+     "displayView": "2815 - Fabricación de hornos, hogares y quemadores industriales"
+    },
+    {
+     "id": 166,
+     "ciiu": 2816,
+     "description": "Fabricación de equipo de elevación y manipulación",
+     "displayView": "2816 - Fabricación de equipo de elevación y manipulación"
+    },
+    {
+     "id": 167,
+     "ciiu": 2817,
+     "description": "Fabricación de maquinaria y equipo de oficina (excepto computadoras y equipo periférico)",
+     "displayView": "2817 - Fabricación de maquinaria y equipo de oficina (excepto computadoras y equipo periférico)"
+    },
+    {
+     "id": 168,
+     "ciiu": 2818,
+     "description": "Fabricación de herramientas manuales con motor",
+     "displayView": "2818 - Fabricación de herramientas manuales con motor"
+    },
+    {
+     "id": 169,
+     "ciiu": 2819,
+     "description": "Fabricación de otros tipos de maquinaria y equipo de uso general n.c.p.",
+     "displayView": "2819 - Fabricación de otros tipos de maquinaria y equipo de uso general n.c.p."
+    },
+    {
+     "id": 170,
+     "ciiu": 2821,
+     "description": "Fabricación de maquinaria agropecuaria y forestal",
+     "displayView": "2821 - Fabricación de maquinaria agropecuaria y forestal"
+    },
+    {
+     "id": 171,
+     "ciiu": 2822,
+     "description": "Fabricación de máquinas formadoras de metal y de máquinas herramienta",
+     "displayView": "2822 - Fabricación de máquinas formadoras de metal y de máquinas herramienta"
+    },
+    {
+     "id": 172,
+     "ciiu": 2823,
+     "description": "Fabricación de maquinaria para la metalurgia",
+     "displayView": "2823 - Fabricación de maquinaria para la metalurgia"
+    },
+    {
+     "id": 173,
+     "ciiu": 2824,
+     "description": "Fabricación de maquinaria para explotación de minas y canteras y para obras de construcción",
+     "displayView": "2824 - Fabricación de maquinaria para explotación de minas y canteras y para obras de construcción"
+    },
+    {
+     "id": 174,
+     "ciiu": 2825,
+     "description": "Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco",
+     "displayView": "2825 - Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco"
+    },
+    {
+     "id": 175,
+     "ciiu": 2826,
+     "description": "Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros",
+     "displayView": "2826 - Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros"
+    },
+    {
+     "id": 176,
+     "ciiu": 2829,
+     "description": "Fabricación de otros tipos de maquinaria y equipo de uso especial n.c.p.",
+     "displayView": "2829 - Fabricación de otros tipos de maquinaria y equipo de uso especial n.c.p."
+    },
+    {
+     "id": 177,
+     "ciiu": 2910,
+     "description": "Fabricación de vehículos automotores y sus motores",
+     "displayView": "2910 - Fabricación de vehículos automotores y sus motores"
+    },
+    {
+     "id": 178,
+     "ciiu": 2920,
+     "description": "Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques",
+     "displayView": "2920 - Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques"
+    },
+    {
+     "id": 179,
+     "ciiu": 2930,
+     "description": "Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",
+     "displayView": "2930 - Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores"
+    },
+    {
+     "id": 180,
+     "ciiu": 3011,
+     "description": "Construcción de barcos y de estructuras flotantes",
+     "displayView": "3011 - Construcción de barcos y de estructuras flotantes"
+    },
+    {
+     "id": 181,
+     "ciiu": 3012,
+     "description": "Construcción de embarcaciones de recreo y deporte",
+     "displayView": "3012 - Construcción de embarcaciones de recreo y deporte"
+    },
+    {
+     "id": 182,
+     "ciiu": 3020,
+     "description": "Fabricación de locomotoras y de material rodante para ferrocarriles",
+     "displayView": "3020 - Fabricación de locomotoras y de material rodante para ferrocarriles"
+    },
+    {
+     "id": 183,
+     "ciiu": 3030,
+     "description": "Fabricación de aeronaves, naves espaciales y de maquinaria conexa",
+     "displayView": "3030 - Fabricación de aeronaves, naves espaciales y de maquinaria conexa"
+    },
+    {
+     "id": 184,
+     "ciiu": 3040,
+     "description": "Fabricación de vehículos militares de combate",
+     "displayView": "3040 - Fabricación de vehículos militares de combate"
+    },
+    {
+     "id": 185,
+     "ciiu": 3091,
+     "description": "Fabricación de motocicletas",
+     "displayView": "3091 - Fabricación de motocicletas"
+    },
+    {
+     "id": 186,
+     "ciiu": 3092,
+     "description": "Fabricación de bicicletas y de sillas de ruedas para personas con discapacidad",
+     "displayView": "3092 - Fabricación de bicicletas y de sillas de ruedas para personas con discapacidad"
+    },
+    {
+     "id": 187,
+     "ciiu": 3099,
+     "description": "Fabricación de otros tipos de equipo de transporte n.c.p.",
+     "displayView": "3099 - Fabricación de otros tipos de equipo de transporte n.c.p."
+    },
+    {
+     "id": 188,
+     "ciiu": 3110,
+     "description": "Fabricación de muebles",
+     "displayView": "3110 - Fabricación de muebles"
+    },
+    {
+     "id": 189,
+     "ciiu": 3120,
+     "description": "Fabricación de colchones y somieres",
+     "displayView": "3120 - Fabricación de colchones y somieres"
+    },
+    {
+     "id": 190,
+     "ciiu": 3210,
+     "description": "Fabricación de joyas, bisutería y artículos conexos",
+     "displayView": "3210 - Fabricación de joyas, bisutería y artículos conexos"
+    },
+    {
+     "id": 191,
+     "ciiu": 3220,
+     "description": "Fabricación de instrumentos musicales",
+     "displayView": "3220 - Fabricación de instrumentos musicales"
+    },
+    {
+     "id": 192,
+     "ciiu": 3230,
+     "description": "Fabricación de artículos y equipo para la práctica del deporte",
+     "displayView": "3230 - Fabricación de artículos y equipo para la práctica del deporte"
+    },
+    {
+     "id": 193,
+     "ciiu": 3240,
+     "description": "Fabricación de juegos, juguetes y rompecabezas",
+     "displayView": "3240 - Fabricación de juegos, juguetes y rompecabezas"
+    },
+    {
+     "id": 194,
+     "ciiu": 3250,
+     "description": "Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",
+     "displayView": "3250 - Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)"
+    },
+    {
+     "id": 195,
+     "ciiu": 3290,
+     "description": "Otras industrias manufactureras n.c.p.",
+     "displayView": "3290 - Otras industrias manufactureras n.c.p."
+    },
+    {
+     "id": 196,
+     "ciiu": 3311,
+     "description": "Mantenimiento y reparación especializado de productos elaborados en metal",
+     "displayView": "3311 - Mantenimiento y reparación especializado de productos elaborados en metal"
+    },
+    {
+     "id": 197,
+     "ciiu": 3312,
+     "description": "Mantenimiento y reparación especializado de maquinaria y equipo",
+     "displayView": "3312 - Mantenimiento y reparación especializado de maquinaria y equipo"
+    },
+    {
+     "id": 198,
+     "ciiu": 3313,
+     "description": "Mantenimiento y reparación especializado de equipo electrónico y óptico",
+     "displayView": "3313 - Mantenimiento y reparación especializado de equipo electrónico y óptico"
+    },
+    {
+     "id": 199,
+     "ciiu": 3314,
+     "description": "Mantenimiento y reparación especializado de equipo eléctrico",
+     "displayView": "3314 - Mantenimiento y reparación especializado de equipo eléctrico"
+    },
+    {
+     "id": 200,
+     "ciiu": 3315,
+     "description": "Mantenimiento y reparación especializado de equipo de transporte, excepto los vehículos automotores, motocicletas y bicicletas",
+     "displayView": "3315 - Mantenimiento y reparación especializado de equipo de transporte, excepto los vehículos automotores, motocicletas y bicicletas"
+    },
+    {
+     "id": 201,
+     "ciiu": 3319,
+     "description": "Mantenimiento y reparación de otros tipos de equipos y sus componentes n.c.p.",
+     "displayView": "3319 - Mantenimiento y reparación de otros tipos de equipos y sus componentes n.c.p."
+    },
+    {
+     "id": 202,
+     "ciiu": 3320,
+     "description": "Instalación especializada de maquinaria y equipo industrial",
+     "displayView": "3320 - Instalación especializada de maquinaria y equipo industrial"
+    },
+    {
+     "id": 203,
+     "ciiu": 3511,
+     "description": "Generación de energía eléctrica",
+     "displayView": "3511 - Generación de energía eléctrica"
+    },
+    {
+     "id": 204,
+     "ciiu": 3512,
+     "description": "Transmisión de energía eléctrica",
+     "displayView": "3512 - Transmisión de energía eléctrica"
+    },
+    {
+     "id": 205,
+     "ciiu": 3513,
+     "description": "Distribución de energía eléctrica",
+     "displayView": "3513 - Distribución de energía eléctrica"
+    },
+    {
+     "id": 206,
+     "ciiu": 3514,
+     "description": "Comercialización de energía eléctrica",
+     "displayView": "3514 - Comercialización de energía eléctrica"
+    },
+    {
+     "id": 207,
+     "ciiu": 3520,
+     "description": "Producción de gas; distribución de combustibles gaseosos por tuberías",
+     "displayView": "3520 - Producción de gas; distribución de combustibles gaseosos por tuberías"
+    },
+    {
+     "id": 208,
+     "ciiu": 3530,
+     "description": "Suministro de vapor y aire acondicionado",
+     "displayView": "3530 - Suministro de vapor y aire acondicionado"
+    },
+    {
+     "id": 209,
+     "ciiu": 3600,
+     "description": "Captación, tratamiento y distribución de agua",
+     "displayView": "3600 - Captación, tratamiento y distribución de agua"
+    },
+    {
+     "id": 210,
+     "ciiu": 3700,
+     "description": "Evacuación y tratamiento de aguas residuales",
+     "displayView": "3700 - Evacuación y tratamiento de aguas residuales"
+    },
+    {
+     "id": 211,
+     "ciiu": 3811,
+     "description": "Recolección de desechos no peligrosos",
+     "displayView": "3811 - Recolección de desechos no peligrosos"
+    },
+    {
+     "id": 212,
+     "ciiu": 3812,
+     "description": "Recolección de desechos peligrosos",
+     "displayView": "3812 - Recolección de desechos peligrosos"
+    },
+    {
+     "id": 213,
+     "ciiu": 3821,
+     "description": "Tratamiento y disposición de desechos no peligrosos",
+     "displayView": "3821 - Tratamiento y disposición de desechos no peligrosos"
+    },
+    {
+     "id": 214,
+     "ciiu": 3822,
+     "description": "Tratamiento y disposición de desechos peligrosos",
+     "displayView": "3822 - Tratamiento y disposición de desechos peligrosos"
+    },
+    {
+     "id": 215,
+     "ciiu": 3830,
+     "description": "Recuperación de materiales",
+     "displayView": "3830 - Recuperación de materiales"
+    },
+    {
+     "id": 216,
+     "ciiu": 3900,
+     "description": "Actividades de saneamiento ambiental y otros servicios de gestión de desechos",
+     "displayView": "3900 - Actividades de saneamiento ambiental y otros servicios de gestión de desechos"
+    },
+    {
+     "id": 217,
+     "ciiu": 4111,
+     "description": "Construcción de edificios residenciales",
+     "displayView": "4111 - Construcción de edificios residenciales"
+    },
+    {
+     "id": 218,
+     "ciiu": 4112,
+     "description": "Construcción de edificios no residenciales",
+     "displayView": "4112 - Construcción de edificios no residenciales"
+    },
+    {
+     "id": 219,
+     "ciiu": 4210,
+     "description": "Construcción de carreteras y vías de ferrocarril",
+     "displayView": "4210 - Construcción de carreteras y vías de ferrocarril"
+    },
+    {
+     "id": 220,
+     "ciiu": 4220,
+     "description": "Construcción de proyectos de servicio público",
+     "displayView": "4220 - Construcción de proyectos de servicio público"
+    },
+    {
+     "id": 221,
+     "ciiu": 4290,
+     "description": "Construcción de otras obras de ingeniería civil",
+     "displayView": "4290 - Construcción de otras obras de ingeniería civil"
+    },
+    {
+     "id": 222,
+     "ciiu": 4311,
+     "description": "Demolición",
+     "displayView": "4311 - Demolición"
+    },
+    {
+     "id": 223,
+     "ciiu": 4312,
+     "description": "Preparación del terreno",
+     "displayView": "4312 - Preparación del terreno"
+    },
+    {
+     "id": 224,
+     "ciiu": 4321,
+     "description": "Instalaciones eléctricas",
+     "displayView": "4321 - Instalaciones eléctricas"
+    },
+    {
+     "id": 225,
+     "ciiu": 4322,
+     "description": "Instalaciones de fontanería, calefacción y aire acondicionado",
+     "displayView": "4322 - Instalaciones de fontanería, calefacción y aire acondicionado"
+    },
+    {
+     "id": 226,
+     "ciiu": 4329,
+     "description": "Otras instalaciones especializadas",
+     "displayView": "4329 - Otras instalaciones especializadas"
+    },
+    {
+     "id": 227,
+     "ciiu": 4330,
+     "description": "Terminación y acabado de edificios y obras de ingeniería civil",
+     "displayView": "4330 - Terminación y acabado de edificios y obras de ingeniería civil"
+    },
+    {
+     "id": 228,
+     "ciiu": 4390,
+     "description": "Otras actividades especializadas para la construcción de edificios y obras de ingeniería civil",
+     "displayView": "4390 - Otras actividades especializadas para la construcción de edificios y obras de ingeniería civil"
+    },
+    {
+     "id": 229,
+     "ciiu": 4511,
+     "description": "Comercio de vehículos automotores nuevos",
+     "displayView": "4511 - Comercio de vehículos automotores nuevos"
+    },
+    {
+     "id": 230,
+     "ciiu": 4512,
+     "description": "Comercio de vehículos automotores usados",
+     "displayView": "4512 - Comercio de vehículos automotores usados"
+    },
+    {
+     "id": 231,
+     "ciiu": 4520,
+     "description": "Mantenimiento y reparación de vehículos automotores",
+     "displayView": "4520 - Mantenimiento y reparación de vehículos automotores"
+    },
+    {
+     "id": 232,
+     "ciiu": 4530,
+     "description": "Comercio de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",
+     "displayView": "4530 - Comercio de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores"
+    },
+    {
+     "id": 233,
+     "ciiu": 4541,
+     "description": "Comercio de motocicletas y de sus partes, piezas y accesorios",
+     "displayView": "4541 - Comercio de motocicletas y de sus partes, piezas y accesorios"
+    },
+    {
+     "id": 234,
+     "ciiu": 4542,
+     "description": "Mantenimiento y reparación de motocicletas y de sus partes y piezas",
+     "displayView": "4542 - Mantenimiento y reparación de motocicletas y de sus partes y piezas"
+    },
+    {
+     "id": 235,
+     "ciiu": 4610,
+     "description": "Comercio al por mayor a cambio de una retribución o por contrata",
+     "displayView": "4610 - Comercio al por mayor a cambio de una retribución o por contrata"
+    },
+    {
+     "id": 236,
+     "ciiu": 4620,
+     "description": "Comercio al por mayor de materias primas agropecuarias; animales vivos",
+     "displayView": "4620 - Comercio al por mayor de materias primas agropecuarias; animales vivos"
+    },
+    {
+     "id": 237,
+     "ciiu": 4631,
+     "description": "Comercio al por mayor de productos alimenticios",
+     "displayView": "4631 - Comercio al por mayor de productos alimenticios"
+    },
+    {
+     "id": 238,
+     "ciiu": 4632,
+     "description": "Comercio al por mayor de bebidas y tabaco",
+     "displayView": "4632 - Comercio al por mayor de bebidas y tabaco"
+    },
+    {
+     "id": 239,
+     "ciiu": 4641,
+     "description": "Comercio al por mayor de productos textiles, productos confeccionados para uso doméstico",
+     "displayView": "4641 - Comercio al por mayor de productos textiles, productos confeccionados para uso doméstico"
+    },
+    {
+     "id": 240,
+     "ciiu": 4642,
+     "description": "Comercio al por mayor de prendas de vestir",
+     "displayView": "4642 - Comercio al por mayor de prendas de vestir"
+    },
+    {
+     "id": 241,
+     "ciiu": 4643,
+     "description": "Comercio al por mayor de calzado",
+     "displayView": "4643 - Comercio al por mayor de calzado"
+    },
+    {
+     "id": 242,
+     "ciiu": 4644,
+     "description": "Comercio al por mayor de aparatos y equipo de uso doméstico",
+     "displayView": "4644 - Comercio al por mayor de aparatos y equipo de uso doméstico"
+    },
+    {
+     "id": 243,
+     "ciiu": 4645,
+     "description": "Comercio al por mayor de productos farmacéuticos, medicinales, cosméticos y de tocador",
+     "displayView": "4645 - Comercio al por mayor de productos farmacéuticos, medicinales, cosméticos y de tocador"
+    },
+    {
+     "id": 244,
+     "ciiu": 4649,
+     "description": "Comercio al por mayor de otros utensilios domésticos n.c.p.",
+     "displayView": "4649 - Comercio al por mayor de otros utensilios domésticos n.c.p."
+    },
+    {
+     "id": 245,
+     "ciiu": 4651,
+     "description": "Comercio al por mayor de computadores, equipo periférico y programas de informática",
+     "displayView": "4651 - Comercio al por mayor de computadores, equipo periférico y programas de informática"
+    },
+    {
+     "id": 246,
+     "ciiu": 4652,
+     "description": "Comercio al por mayor de equipo, partes y piezas electrónicos y de telecomunicaciones",
+     "displayView": "4652 - Comercio al por mayor de equipo, partes y piezas electrónicos y de telecomunicaciones"
+    },
+    {
+     "id": 247,
+     "ciiu": 4653,
+     "description": "Comercio al por mayor de maquinaria y equipo agropecuarios",
+     "displayView": "4653 - Comercio al por mayor de maquinaria y equipo agropecuarios"
+    },
+    {
+     "id": 248,
+     "ciiu": 4659,
+     "description": "Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p.",
+     "displayView": "4659 - Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p."
+    },
+    {
+     "id": 249,
+     "ciiu": 4661,
+     "description": "Comercio al por mayor de combustibles sólidos, líquidos, gaseosos y productos conexos",
+     "displayView": "4661 - Comercio al por mayor de combustibles sólidos, líquidos, gaseosos y productos conexos"
+    },
+    {
+     "id": 250,
+     "ciiu": 4662,
+     "description": "Comercio al por mayor de metales y productos metalíferos",
+     "displayView": "4662 - Comercio al por mayor de metales y productos metalíferos"
+    },
+    {
+     "id": 251,
+     "ciiu": 4663,
+     "description": "Comercio al por mayor de materiales de construcción, artículos de ferretería, pinturas, productos de vidrio, equipo y materiales de fontanería y calefacción",
+     "displayView": "4663 - Comercio al por mayor de materiales de construcción, artículos de ferretería, pinturas, productos de vidrio, equipo y materiales de fontanería y calefacción"
+    },
+    {
+     "id": 252,
+     "ciiu": 4664,
+     "description": "Comercio al por mayor de productos químicos básicos, cauchos y plásticos en formas primarias y productos químicos de uso agropecuario",
+     "displayView": "4664 - Comercio al por mayor de productos químicos básicos, cauchos y plásticos en formas primarias y productos químicos de uso agropecuario"
+    },
+    {
+     "id": 253,
+     "ciiu": 4665,
+     "description": "Comercio al por mayor de desperdicios, desechos y chatarra",
+     "displayView": "4665 - Comercio al por mayor de desperdicios, desechos y chatarra"
+    },
+    {
+     "id": 254,
+     "ciiu": 4669,
+     "description": "Comercio al por mayor de otros productos n.c.p.",
+     "displayView": "4669 - Comercio al por mayor de otros productos n.c.p."
+    },
+    {
+     "id": 255,
+     "ciiu": 4690,
+     "description": "Comercio al por mayor no especializado",
+     "displayView": "4690 - Comercio al por mayor no especializado"
+    },
+    {
+     "id": 256,
+     "ciiu": 4711,
+     "description": "Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por alimentos, bebidas o tabaco",
+     "displayView": "4711 - Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por alimentos, bebidas o tabaco"
+    },
+    {
+     "id": 257,
+     "ciiu": 4719,
+     "description": "Comercio al por menor en establecimientos no especializados, con surtido compuesto principalmente por productos diferentes de alimentos (víveres en general), bebidas y tabaco",
+     "displayView": "4719 - Comercio al por menor en establecimientos no especializados, con surtido compuesto principalmente por productos diferentes de alimentos (víveres en general), bebidas y tabaco"
+    },
+    {
+     "id": 258,
+     "ciiu": 4721,
+     "description": "Comercio al por menor de productos agrícolas para el consumo en establecimientos especializados",
+     "displayView": "4721 - Comercio al por menor de productos agrícolas para el consumo en establecimientos especializados"
+    },
+    {
+     "id": 259,
+     "ciiu": 4722,
+     "description": "Comercio al por menor de leche, productos lácteos y huevos, en establecimientos especializados",
+     "displayView": "4722 - Comercio al por menor de leche, productos lácteos y huevos, en establecimientos especializados"
+    },
+    {
+     "id": 260,
+     "ciiu": 4723,
+     "description": "Comercio al por menor de carnes (incluye aves de corral), productos cárnicos, pescados y productos de mar, en establecimientos especializados",
+     "displayView": "4723 - Comercio al por menor de carnes (incluye aves de corral), productos cárnicos, pescados y productos de mar, en establecimientos especializados"
+    },
+    {
+     "id": 261,
+     "ciiu": 4724,
+     "description": "Comercio al por menor de bebidas y productos del tabaco, en establecimientos especializados",
+     "displayView": "4724 - Comercio al por menor de bebidas y productos del tabaco, en establecimientos especializados"
+    },
+    {
+     "id": 262,
+     "ciiu": 4729,
+     "description": "Comercio al por menor de otros productos alimenticios n.c.p., en establecimientos especializados",
+     "displayView": "4729 - Comercio al por menor de otros productos alimenticios n.c.p., en establecimientos especializados"
+    },
+    {
+     "id": 263,
+     "ciiu": 4731,
+     "description": "Comercio al por menor de combustible para automotores",
+     "displayView": "4731 - Comercio al por menor de combustible para automotores"
+    },
+    {
+     "id": 264,
+     "ciiu": 4732,
+     "description": "Comercio al por menor de lubricantes (aceites, grasas), aditivos y productos de limpieza para vehículos automotores",
+     "displayView": "4732 - Comercio al por menor de lubricantes (aceites, grasas), aditivos y productos de limpieza para vehículos automotores"
+    },
+    {
+     "id": 265,
+     "ciiu": 4741,
+     "description": "Comercio al por menor de computadores, equipos periféricos, programas de informática y equipos de telecomunicaciones en establecimientos especializados",
+     "displayView": "4741 - Comercio al por menor de computadores, equipos periféricos, programas de informática y equipos de telecomunicaciones en establecimientos especializados"
+    },
+    {
+     "id": 266,
+     "ciiu": 4742,
+     "description": "Comercio al por menor de equipos y aparatos de sonido y de video, en establecimientos especializados",
+     "displayView": "4742 - Comercio al por menor de equipos y aparatos de sonido y de video, en establecimientos especializados"
+    },
+    {
+     "id": 267,
+     "ciiu": 4751,
+     "description": "Comercio al por menor de productos textiles en establecimientos especializados",
+     "displayView": "4751 - Comercio al por menor de productos textiles en establecimientos especializados"
+    },
+    {
+     "id": 268,
+     "ciiu": 4752,
+     "description": "Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+     "displayView": "4752 - Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados"
+    },
+    {
+     "id": 269,
+     "ciiu": 4753,
+     "description": "Comercio al por menor de tapices, alfombras y cubrimientos para paredes y pisos en establecimientos especializados",
+     "displayView": "4753 - Comercio al por menor de tapices, alfombras y cubrimientos para paredes y pisos en establecimientos especializados"
+    },
+    {
+     "id": 270,
+     "ciiu": 4754,
+     "description": "Comercio al por menor de electrodomésticos y gasodomésticos de uso doméstico, muebles y equipos de iluminación",
+     "displayView": "4754 - Comercio al por menor de electrodomésticos y gasodomésticos de uso doméstico, muebles y equipos de iluminación"
+    },
+    {
+     "id": 271,
+     "ciiu": 4755,
+     "description": "Comercio al por menor de artículos y utensilios de uso doméstico",
+     "displayView": "4755 - Comercio al por menor de artículos y utensilios de uso doméstico"
+    },
+    {
+     "id": 272,
+     "ciiu": 4759,
+     "description": "Comercio al por menor de otros artículos domésticos en establecimientos especializados",
+     "displayView": "4759 - Comercio al por menor de otros artículos domésticos en establecimientos especializados"
+    },
+    {
+     "id": 273,
+     "ciiu": 4761,
+     "description": "Comercio al por menor de libros, periódicos, materiales y artículos de papelería y escritorio, en establecimientos especializados",
+     "displayView": "4761 - Comercio al por menor de libros, periódicos, materiales y artículos de papelería y escritorio, en establecimientos especializados"
+    },
+    {
+     "id": 274,
+     "ciiu": 4762,
+     "description": "Comercio al por menor de artículos deportivos, en establecimientos especializados",
+     "displayView": "4762 - Comercio al por menor de artículos deportivos, en establecimientos especializados"
+    },
+    {
+     "id": 275,
+     "ciiu": 4769,
+     "description": "Comercio al por menor de otros artículos culturales y de entretenimiento n.c.p. en establecimientos especializados",
+     "displayView": "4769 - Comercio al por menor de otros artículos culturales y de entretenimiento n.c.p. en establecimientos especializados"
+    },
+    {
+     "id": 276,
+     "ciiu": 4771,
+     "description": "Comercio al por menor de prendas de vestir y sus accesorios (incluye artículos de piel) en establecimientos especializados",
+     "displayView": "4771 - Comercio al por menor de prendas de vestir y sus accesorios (incluye artículos de piel) en establecimientos especializados"
+    },
+    {
+     "id": 277,
+     "ciiu": 4772,
+     "description": "Comercio al por menor de todo tipo de calzado y artículos de cuero y sucedáneos del cuero en establecimientos especializados.",
+     "displayView": "4772 - Comercio al por menor de todo tipo de calzado y artículos de cuero y sucedáneos del cuero en establecimientos especializados."
+    },
+    {
+     "id": 278,
+     "ciiu": 4773,
+     "description": "Comercio al por menor de productos farmacéuticos y medicinales, cosméticos y artículos de tocador en establecimientos especializados",
+     "displayView": "4773 - Comercio al por menor de productos farmacéuticos y medicinales, cosméticos y artículos de tocador en establecimientos especializados"
+    },
+    {
+     "id": 279,
+     "ciiu": 4774,
+     "description": "Comercio al por menor de otros productos nuevos en establecimientos especializados",
+     "displayView": "4774 - Comercio al por menor de otros productos nuevos en establecimientos especializados"
+    },
+    {
+     "id": 280,
+     "ciiu": 4775,
+     "description": "Comercio al por menor de artículos de segunda mano",
+     "displayView": "4775 - Comercio al por menor de artículos de segunda mano"
+    },
+    {
+     "id": 281,
+     "ciiu": 4781,
+     "description": "Comercio al por menor de alimentos, bebidas y tabaco, en puestos de venta móviles",
+     "displayView": "4781 - Comercio al por menor de alimentos, bebidas y tabaco, en puestos de venta móviles"
+    },
+    {
+     "id": 282,
+     "ciiu": 4782,
+     "description": "Comercio al por menor de productos textiles, prendas de vestir y calzado, en puestos de venta móviles",
+     "displayView": "4782 - Comercio al por menor de productos textiles, prendas de vestir y calzado, en puestos de venta móviles"
+    },
+    {
+     "id": 283,
+     "ciiu": 4789,
+     "description": "Comercio al por menor de otros productos en puestos de venta móviles",
+     "displayView": "4789 - Comercio al por menor de otros productos en puestos de venta móviles"
+    },
+    {
+     "id": 284,
+     "ciiu": 4791,
+     "description": "Comercio al por menor realizado a través de Internet",
+     "displayView": "4791 - Comercio al por menor realizado a través de Internet"
+    },
+    {
+     "id": 285,
+     "ciiu": 4792,
+     "description": "Comercio al por menor realizado a través de casas de venta o por correo",
+     "displayView": "4792 - Comercio al por menor realizado a través de casas de venta o por correo"
+    },
+    {
+     "id": 286,
+     "ciiu": 4799,
+     "description": "Otros tipos de comercio al por menor no realizado en establecimientos, puestos de venta o mercados.",
+     "displayView": "4799 - Otros tipos de comercio al por menor no realizado en establecimientos, puestos de venta o mercados."
+    },
+    {
+     "id": 287,
+     "ciiu": 4911,
+     "description": "Transporte férreo de pasajeros",
+     "displayView": "4911 - Transporte férreo de pasajeros"
+    },
+    {
+     "id": 288,
+     "ciiu": 4912,
+     "description": "Transporte férreo de carga",
+     "displayView": "4912 - Transporte férreo de carga"
+    },
+    {
+     "id": 289,
+     "ciiu": 4921,
+     "description": "Transporte de pasajeros",
+     "displayView": "4921 - Transporte de pasajeros"
+    },
+    {
+     "id": 290,
+     "ciiu": 4922,
+     "description": "Transporte mixto",
+     "displayView": "4922 - Transporte mixto"
+    },
+    {
+     "id": 291,
+     "ciiu": 4923,
+     "description": "Transporte de carga por carretera",
+     "displayView": "4923 - Transporte de carga por carretera"
+    },
+    {
+     "id": 292,
+     "ciiu": 4930,
+     "description": "Transporte por tuberías",
+     "displayView": "4930 - Transporte por tuberías"
+    },
+    {
+     "id": 293,
+     "ciiu": 5011,
+     "description": "Transporte de pasajeros marítimo y de cabotaje",
+     "displayView": "5011 - Transporte de pasajeros marítimo y de cabotaje"
+    },
+    {
+     "id": 294,
+     "ciiu": 5012,
+     "description": "Transporte de carga marítimo y de cabotaje",
+     "displayView": "5012 - Transporte de carga marítimo y de cabotaje"
+    },
+    {
+     "id": 295,
+     "ciiu": 5021,
+     "description": "Transporte fluvial de pasajeros",
+     "displayView": "5021 - Transporte fluvial de pasajeros"
+    },
+    {
+     "id": 296,
+     "ciiu": 5022,
+     "description": "Transporte fluvial de carga",
+     "displayView": "5022 - Transporte fluvial de carga"
+    },
+    {
+     "id": 297,
+     "ciiu": 5111,
+     "description": "Transporte aéreo nacional de pasajeros",
+     "displayView": "5111 - Transporte aéreo nacional de pasajeros"
+    },
+    {
+     "id": 298,
+     "ciiu": 5112,
+     "description": "Transporte aéreo internacional de pasajeros",
+     "displayView": "5112 - Transporte aéreo internacional de pasajeros"
+    },
+    {
+     "id": 299,
+     "ciiu": 5121,
+     "description": "Transporte aéreo nacional de carga",
+     "displayView": "5121 - Transporte aéreo nacional de carga"
+    },
+    {
+     "id": 300,
+     "ciiu": 5122,
+     "description": "Transporte aéreo internacional de carga",
+     "displayView": "5122 - Transporte aéreo internacional de carga"
+    },
+    {
+     "id": 301,
+     "ciiu": 5210,
+     "description": "Almacenamiento y depósito",
+     "displayView": "5210 - Almacenamiento y depósito"
+    },
+    {
+     "id": 302,
+     "ciiu": 5221,
+     "description": "Actividades de estaciones, vías y servicios complementarios para el transporte terrestre",
+     "displayView": "5221 - Actividades de estaciones, vías y servicios complementarios para el transporte terrestre"
+    },
+    {
+     "id": 303,
+     "ciiu": 5222,
+     "description": "Actividades de puertos y servicios complementarios para el transporte acuático",
+     "displayView": "5222 - Actividades de puertos y servicios complementarios para el transporte acuático"
+    },
+    {
+     "id": 304,
+     "ciiu": 5223,
+     "description": "Actividades de aeropuertos, servicios de navegación aérea y demás actividades conexas al transporte aéreo",
+     "displayView": "5223 - Actividades de aeropuertos, servicios de navegación aérea y demás actividades conexas al transporte aéreo"
+    },
+    {
+     "id": 305,
+     "ciiu": 5224,
+     "description": "Manipulación de carga",
+     "displayView": "5224 - Manipulación de carga"
+    },
+    {
+     "id": 306,
+     "ciiu": 5229,
+     "description": "Otras actividades complementarias al transporte",
+     "displayView": "5229 - Otras actividades complementarias al transporte"
+    },
+    {
+     "id": 307,
+     "ciiu": 5310,
+     "description": "Actividades postales nacionales",
+     "displayView": "5310 - Actividades postales nacionales"
+    },
+    {
+     "id": 308,
+     "ciiu": 5320,
+     "description": "Actividades de mensajería",
+     "displayView": "5320 - Actividades de mensajería"
+    },
+    {
+     "id": 309,
+     "ciiu": 5511,
+     "description": "Alojamiento en hoteles",
+     "displayView": "5511 - Alojamiento en hoteles"
+    },
+    {
+     "id": 310,
+     "ciiu": 5512,
+     "description": "Alojamiento en apartahoteles",
+     "displayView": "5512 - Alojamiento en apartahoteles"
+    },
+    {
+     "id": 311,
+     "ciiu": 5513,
+     "description": "Alojamiento en centros vacacionales",
+     "displayView": "5513 - Alojamiento en centros vacacionales"
+    },
+    {
+     "id": 312,
+     "ciiu": 5514,
+     "description": "Alojamiento rural",
+     "displayView": "5514 - Alojamiento rural"
+    },
+    {
+     "id": 313,
+     "ciiu": 5519,
+     "description": "Otros tipos de alojamientos para visitantes",
+     "displayView": "5519 - Otros tipos de alojamientos para visitantes"
+    },
+    {
+     "id": 314,
+     "ciiu": 5520,
+     "description": "Actividades de zonas de camping y parques para vehículos recreacionales",
+     "displayView": "5520 - Actividades de zonas de camping y parques para vehículos recreacionales"
+    },
+    {
+     "id": 315,
+     "ciiu": 5530,
+     "description": "Servicio por horas",
+     "displayView": "5530 - Servicio por horas"
+    },
+    {
+     "id": 316,
+     "ciiu": 5590,
+     "description": "Otros tipos de alojamiento n.c.p.",
+     "displayView": "5590 - Otros tipos de alojamiento n.c.p."
+    },
+    {
+     "id": 317,
+     "ciiu": 5611,
+     "description": "Expendio a la mesa de comidas preparadas",
+     "displayView": "5611 - Expendio a la mesa de comidas preparadas"
+    },
+    {
+     "id": 318,
+     "ciiu": 5612,
+     "description": "Expendio por autoservicio de comidas preparadas",
+     "displayView": "5612 - Expendio por autoservicio de comidas preparadas"
+    },
+    {
+     "id": 319,
+     "ciiu": 5613,
+     "description": "Expendio de comidas preparadas en cafeterías",
+     "displayView": "5613 - Expendio de comidas preparadas en cafeterías"
+    },
+    {
+     "id": 320,
+     "ciiu": 5619,
+     "description": "Otros tipos de expendio de comidas preparadas n.c.p.",
+     "displayView": "5619 - Otros tipos de expendio de comidas preparadas n.c.p."
+    },
+    {
+     "id": 321,
+     "ciiu": 5621,
+     "description": "Catering para eventos",
+     "displayView": "5621 - Catering para eventos"
+    },
+    {
+     "id": 322,
+     "ciiu": 5629,
+     "description": "Actividades de otros servicios de comidas",
+     "displayView": "5629 - Actividades de otros servicios de comidas"
+    },
+    {
+     "id": 323,
+     "ciiu": 5630,
+     "description": "Expendio de bebidas alcohólicas para el consumo dentro del establecimiento",
+     "displayView": "5630 - Expendio de bebidas alcohólicas para el consumo dentro del establecimiento"
+    },
+    {
+     "id": 324,
+     "ciiu": 5811,
+     "description": "Edición de libros",
+     "displayView": "5811 - Edición de libros"
+    },
+    {
+     "id": 325,
+     "ciiu": 5812,
+     "description": "Edición de directorios y listas de correo",
+     "displayView": "5812 - Edición de directorios y listas de correo"
+    },
+    {
+     "id": 326,
+     "ciiu": 5813,
+     "description": "Edición de periódicos, revistas y otras publicaciones periódicas",
+     "displayView": "5813 - Edición de periódicos, revistas y otras publicaciones periódicas"
+    },
+    {
+     "id": 327,
+     "ciiu": 5819,
+     "description": "Otros trabajos de edición",
+     "displayView": "5819 - Otros trabajos de edición"
+    },
+    {
+     "id": 328,
+     "ciiu": 5820,
+     "description": "Edición de programas de informática (software)",
+     "displayView": "5820 - Edición de programas de informática (software)"
+    },
+    {
+     "id": 329,
+     "ciiu": 5911,
+     "description": "Actividades de producción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión",
+     "displayView": "5911 - Actividades de producción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión"
+    },
+    {
+     "id": 330,
+     "ciiu": 5912,
+     "description": "Actividades de posproducción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión",
+     "displayView": "5912 - Actividades de posproducción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión"
+    },
+    {
+     "id": 331,
+     "ciiu": 5913,
+     "description": "Actividades de distribución de películas cinematográficas, videos, programas, anuncios y comerciales de televisión",
+     "displayView": "5913 - Actividades de distribución de películas cinematográficas, videos, programas, anuncios y comerciales de televisión"
+    },
+    {
+     "id": 332,
+     "ciiu": 5914,
+     "description": "Actividades de exhibición de películas cinematográficas y videos",
+     "displayView": "5914 - Actividades de exhibición de películas cinematográficas y videos"
+    },
+    {
+     "id": 333,
+     "ciiu": 5920,
+     "description": "Actividades de grabación de sonido y edición de música",
+     "displayView": "5920 - Actividades de grabación de sonido y edición de música"
+    },
+    {
+     "id": 334,
+     "ciiu": 6010,
+     "description": "Actividades de programación y transmisión en el servicio de radiodifusión sonora",
+     "displayView": "6010 - Actividades de programación y transmisión en el servicio de radiodifusión sonora"
+    },
+    {
+     "id": 335,
+     "ciiu": 6020,
+     "description": "Actividades de programación y transmisión de televisión",
+     "displayView": "6020 - Actividades de programación y transmisión de televisión"
+    },
+    {
+     "id": 336,
+     "ciiu": 6110,
+     "description": "Actividades de telecomunicaciones alámbricas",
+     "displayView": "6110 - Actividades de telecomunicaciones alámbricas"
+    },
+    {
+     "id": 337,
+     "ciiu": 6120,
+     "description": "Actividades de telecomunicaciones inalámbricas",
+     "displayView": "6120 - Actividades de telecomunicaciones inalámbricas"
+    },
+    {
+     "id": 338,
+     "ciiu": 6130,
+     "description": "Actividades de telecomunicación satelital",
+     "displayView": "6130 - Actividades de telecomunicación satelital"
+    },
+    {
+     "id": 339,
+     "ciiu": 6190,
+     "description": "Otras actividades de telecomunicaciones",
+     "displayView": "6190 - Otras actividades de telecomunicaciones"
+    },
+    {
+     "id": 340,
+     "ciiu": 6201,
+     "description": "Actividades de desarrollo de sistemas informáticos (planificación, análisis, diseño, programación, pruebas)",
+     "displayView": "6201 - Actividades de desarrollo de sistemas informáticos (planificación, análisis, diseño, programación, pruebas)"
+    },
+    {
+     "id": 341,
+     "ciiu": 6202,
+     "description": "Actividades de consultoría informática y actividades de administración de instalaciones informáticas",
+     "displayView": "6202 - Actividades de consultoría informática y actividades de administración de instalaciones informáticas"
+    },
+    {
+     "id": 342,
+     "ciiu": 6209,
+     "description": "Otras actividades de tecnologías de información y actividades de servicios informáticos",
+     "displayView": "6209 - Otras actividades de tecnologías de información y actividades de servicios informáticos"
+    },
+    {
+     "id": 343,
+     "ciiu": 6311,
+     "description": "Procesamiento de datos, alojamiento (hosting) y actividades relacionadas",
+     "displayView": "6311 - Procesamiento de datos, alojamiento (hosting) y actividades relacionadas"
+    },
+    {
+     "id": 344,
+     "ciiu": 6312,
+     "description": "Portales web",
+     "displayView": "6312 - Portales web"
+    },
+    {
+     "id": 345,
+     "ciiu": 6391,
+     "description": "Actividades de agencias de noticias",
+     "displayView": "6391 - Actividades de agencias de noticias"
+    },
+    {
+     "id": 346,
+     "ciiu": 6399,
+     "description": "Otras actividades de servicio de información n.c.p.",
+     "displayView": "6399 - Otras actividades de servicio de información n.c.p."
+    },
+    {
+     "id": 347,
+     "ciiu": 6411,
+     "description": "Banco Central",
+     "displayView": "6411 - Banco Central"
+    },
+    {
+     "id": 348,
+     "ciiu": 6412,
+     "description": "Bancos comerciales",
+     "displayView": "6412 - Bancos comerciales"
+    },
+    {
+     "id": 349,
+     "ciiu": 6421,
+     "description": "Actividades de las corporaciones financieras",
+     "displayView": "6421 - Actividades de las corporaciones financieras"
+    },
+    {
+     "id": 350,
+     "ciiu": 6422,
+     "description": "Actividades de las compañías de financiamiento",
+     "displayView": "6422 - Actividades de las compañías de financiamiento"
+    },
+    {
+     "id": 351,
+     "ciiu": 6423,
+     "description": "Banca de segundo piso",
+     "displayView": "6423 - Banca de segundo piso"
+    },
+    {
+     "id": 352,
+     "ciiu": 6424,
+     "description": "Actividades de las cooperativas financieras",
+     "displayView": "6424 - Actividades de las cooperativas financieras"
+    },
+    {
+     "id": 353,
+     "ciiu": 6431,
+     "description": "Fideicomisos, fondos y entidades financieras similares",
+     "displayView": "6431 - Fideicomisos, fondos y entidades financieras similares"
+    },
+    {
+     "id": 354,
+     "ciiu": 6432,
+     "description": "Fondos de cesantías",
+     "displayView": "6432 - Fondos de cesantías"
+    },
+    {
+     "id": 355,
+     "ciiu": 6491,
+     "description": "Leasing financiero (arrendamiento financiero)",
+     "displayView": "6491 - Leasing financiero (arrendamiento financiero)"
+    },
+    {
+     "id": 356,
+     "ciiu": 6492,
+     "description": "Actividades financieras de fondos de empleados y otras formas asociativas del sector solidario",
+     "displayView": "6492 - Actividades financieras de fondos de empleados y otras formas asociativas del sector solidario"
+    },
+    {
+     "id": 357,
+     "ciiu": 6493,
+     "description": "Actividades de compra de cartera o factoring",
+     "displayView": "6493 - Actividades de compra de cartera o factoring"
+    },
+    {
+     "id": 358,
+     "ciiu": 6494,
+     "description": "Otras actividades de distribución de fondos",
+     "displayView": "6494 - Otras actividades de distribución de fondos"
+    },
+    {
+     "id": 359,
+     "ciiu": 6495,
+     "description": "Instituciones especiales oficiales",
+     "displayView": "6495 - Instituciones especiales oficiales"
+    },
+    {
+     "id": 360,
+     "ciiu": 6499,
+     "description": "Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p.",
+     "displayView": "6499 - Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p."
+    },
+    {
+     "id": 361,
+     "ciiu": 6511,
+     "description": "Seguros generales",
+     "displayView": "6511 - Seguros generales"
+    },
+    {
+     "id": 362,
+     "ciiu": 6512,
+     "description": "Seguros de vida",
+     "displayView": "6512 - Seguros de vida"
+    },
+    {
+     "id": 363,
+     "ciiu": 6513,
+     "description": "Reaseguros",
+     "displayView": "6513 - Reaseguros"
+    },
+    {
+     "id": 364,
+     "ciiu": 6514,
+     "description": "Capitalización",
+     "displayView": "6514 - Capitalización"
+    },
+    {
+     "id": 365,
+     "ciiu": 6521,
+     "description": "Servicios de seguros sociales de salud",
+     "displayView": "6521 - Servicios de seguros sociales de salud"
+    },
+    {
+     "id": 366,
+     "ciiu": 6522,
+     "description": "Servicios de seguros sociales de riesgos profesionales",
+     "displayView": "6522 - Servicios de seguros sociales de riesgos profesionales"
+    },
+    {
+     "id": 367,
+     "ciiu": 6531,
+     "description": "Régimen de prima media con prestación definida (RPM)",
+     "displayView": "6531 - Régimen de prima media con prestación definida (RPM)"
+    },
+    {
+     "id": 368,
+     "ciiu": 6532,
+     "description": "Régimen de ahorro individual (RAI)",
+     "displayView": "6532 - Régimen de ahorro individual (RAI)"
+    },
+    {
+     "id": 369,
+     "ciiu": 6611,
+     "description": "Administración de mercados financieros",
+     "displayView": "6611 - Administración de mercados financieros"
+    },
+    {
+     "id": 370,
+     "ciiu": 6612,
+     "description": "Corretaje de valores y de contratos de productos básicos",
+     "displayView": "6612 - Corretaje de valores y de contratos de productos básicos"
+    },
+    {
+     "id": 371,
+     "ciiu": 6613,
+     "description": "Otras actividades relacionadas con el mercado de valores",
+     "displayView": "6613 - Otras actividades relacionadas con el mercado de valores"
+    },
+    {
+     "id": 372,
+     "ciiu": 6614,
+     "description": "Actividades de las casas de cambio",
+     "displayView": "6614 - Actividades de las casas de cambio"
+    },
+    {
+     "id": 373,
+     "ciiu": 6615,
+     "description": "Actividades de los profesionales de compra y venta de divisas",
+     "displayView": "6615 - Actividades de los profesionales de compra y venta de divisas"
+    },
+    {
+     "id": 374,
+     "ciiu": 6619,
+     "description": "Otras actividades auxiliares de las actividades de servicios financieros n.c.p.",
+     "displayView": "6619 - Otras actividades auxiliares de las actividades de servicios financieros n.c.p."
+    },
+    {
+     "id": 375,
+     "ciiu": 6621,
+     "description": "Actividades de agentes y corredores de seguros",
+     "displayView": "6621 - Actividades de agentes y corredores de seguros"
+    },
+    {
+     "id": 376,
+     "ciiu": 6629,
+     "description": "Evaluación de riesgos y daños, y otras actividades de servicios auxiliares",
+     "displayView": "6629 - Evaluación de riesgos y daños, y otras actividades de servicios auxiliares"
+    },
+    {
+     "id": 377,
+     "ciiu": 6630,
+     "description": "Actividades de administración de fondos",
+     "displayView": "6630 - Actividades de administración de fondos"
+    },
+    {
+     "id": 378,
+     "ciiu": 6810,
+     "description": "Actividades inmobiliarias realizadas con bienes propios o arrendados",
+     "displayView": "6810 - Actividades inmobiliarias realizadas con bienes propios o arrendados"
+    },
+    {
+     "id": 379,
+     "ciiu": 6820,
+     "description": "Actividades inmobiliarias realizadas a cambio de una retribución o por contrata",
+     "displayView": "6820 - Actividades inmobiliarias realizadas a cambio de una retribución o por contrata"
+    },
+    {
+     "id": 380,
+     "ciiu": 6910,
+     "description": "Actividades jurídicas",
+     "displayView": "6910 - Actividades jurídicas"
+    },
+    {
+     "id": 381,
+     "ciiu": 6920,
+     "description": "Actividades de contabilidad, teneduría de libros, auditoría financiera y asesoría tributaria",
+     "displayView": "6920 - Actividades de contabilidad, teneduría de libros, auditoría financiera y asesoría tributaria"
+    },
+    {
+     "id": 382,
+     "ciiu": 7010,
+     "description": "Actividades de administración empresarial",
+     "displayView": "7010 - Actividades de administración empresarial"
+    },
+    {
+     "id": 383,
+     "ciiu": 7020,
+     "description": "Actividades de consultaría de gestión",
+     "displayView": "7020 - Actividades de consultaría de gestión"
+    },
+    {
+     "id": 384,
+     "ciiu": 7110,
+     "description": "Actividades de arquitectura e ingeniería y otras actividades conexas de consultoría técnica",
+     "displayView": "7110 - Actividades de arquitectura e ingeniería y otras actividades conexas de consultoría técnica"
+    },
+    {
+     "id": 385,
+     "ciiu": 7120,
+     "description": "Ensayos y análisis técnicos",
+     "displayView": "7120 - Ensayos y análisis técnicos"
+    },
+    {
+     "id": 386,
+     "ciiu": 7210,
+     "description": "Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería",
+     "displayView": "7210 - Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería"
+    },
+    {
+     "id": 387,
+     "ciiu": 7220,
+     "description": "Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades",
+     "displayView": "7220 - Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades"
+    },
+    {
+     "id": 388,
+     "ciiu": 7310,
+     "description": "Publicidad",
+     "displayView": "7310 - Publicidad"
+    },
+    {
+     "id": 389,
+     "ciiu": 7320,
+     "description": "Estudios de mercado y realización de encuestas de opinión pública",
+     "displayView": "7320 - Estudios de mercado y realización de encuestas de opinión pública"
+    },
+    {
+     "id": 390,
+     "ciiu": 7410,
+     "description": "Actividades especializadas de diseño",
+     "displayView": "7410 - Actividades especializadas de diseño"
+    },
+    {
+     "id": 391,
+     "ciiu": 7420,
+     "description": "Actividades de fotografía",
+     "displayView": "7420 - Actividades de fotografía"
+    },
+    {
+     "id": 392,
+     "ciiu": 7490,
+     "description": "Otras actividades profesionales, científicas y técnicas n.c.p.",
+     "displayView": "7490 - Otras actividades profesionales, científicas y técnicas n.c.p."
+    },
+    {
+     "id": 393,
+     "ciiu": 7500,
+     "description": "Actividades veterinarias",
+     "displayView": "7500 - Actividades veterinarias"
+    },
+    {
+     "id": 394,
+     "ciiu": 7710,
+     "description": "Alquiler y arrendamiento de vehículos automotores",
+     "displayView": "7710 - Alquiler y arrendamiento de vehículos automotores"
+    },
+    {
+     "id": 395,
+     "ciiu": 7721,
+     "description": "Alquiler y arrendamiento de equipo recreativo y deportivo",
+     "displayView": "7721 - Alquiler y arrendamiento de equipo recreativo y deportivo"
+    },
+    {
+     "id": 396,
+     "ciiu": 7722,
+     "description": "Alquiler de videos y discos",
+     "displayView": "7722 - Alquiler de videos y discos"
+    },
+    {
+     "id": 397,
+     "ciiu": 7729,
+     "description": "Alquiler y arrendamiento de otros efectos personales y enseres domésticos n.c.p.",
+     "displayView": "7729 - Alquiler y arrendamiento de otros efectos personales y enseres domésticos n.c.p."
+    },
+    {
+     "id": 398,
+     "ciiu": 7730,
+     "description": "Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles n.c.p.",
+     "displayView": "7730 - Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles n.c.p."
+    },
+    {
+     "id": 399,
+     "ciiu": 7740,
+     "description": "Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor",
+     "displayView": "7740 - Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor"
+    },
+    {
+     "id": 400,
+     "ciiu": 7810,
+     "description": "Actividades de agencias de empleo",
+     "displayView": "7810 - Actividades de agencias de empleo"
+    },
+    {
+     "id": 401,
+     "ciiu": 7820,
+     "description": "Actividades de agencias de empleo temporal",
+     "displayView": "7820 - Actividades de agencias de empleo temporal"
+    },
+    {
+     "id": 402,
+     "ciiu": 7830,
+     "description": "Otras actividades de suministro de recurso humano",
+     "displayView": "7830 - Otras actividades de suministro de recurso humano"
+    },
+    {
+     "id": 403,
+     "ciiu": 7911,
+     "description": "Actividades de las agencias de viaje",
+     "displayView": "7911 - Actividades de las agencias de viaje"
+    },
+    {
+     "id": 404,
+     "ciiu": 7912,
+     "description": "Actividades de operadores turísticos",
+     "displayView": "7912 - Actividades de operadores turísticos"
+    },
+    {
+     "id": 405,
+     "ciiu": 7990,
+     "description": "Otros servicios de reserva y actividades relacionadas",
+     "displayView": "7990 - Otros servicios de reserva y actividades relacionadas"
+    },
+    {
+     "id": 406,
+     "ciiu": 8010,
+     "description": "Actividades de seguridad privada",
+     "displayView": "8010 - Actividades de seguridad privada"
+    },
+    {
+     "id": 407,
+     "ciiu": 8020,
+     "description": "Actividades de servicios de sistemas de seguridad",
+     "displayView": "8020 - Actividades de servicios de sistemas de seguridad"
+    },
+    {
+     "id": 408,
+     "ciiu": 8030,
+     "description": "Actividades de detectives e investigadores privados",
+     "displayView": "8030 - Actividades de detectives e investigadores privados"
+    },
+    {
+     "id": 409,
+     "ciiu": 8110,
+     "description": "Actividades combinadas de apoyo a instalaciones",
+     "displayView": "8110 - Actividades combinadas de apoyo a instalaciones"
+    },
+    {
+     "id": 410,
+     "ciiu": 8121,
+     "description": "Limpieza general interior de edificios",
+     "displayView": "8121 - Limpieza general interior de edificios"
+    },
+    {
+     "id": 411,
+     "ciiu": 8129,
+     "description": "Otras actividades de limpieza de edificios e instalaciones industriales",
+     "displayView": "8129 - Otras actividades de limpieza de edificios e instalaciones industriales"
+    },
+    {
+     "id": 412,
+     "ciiu": 8130,
+     "description": "Actividades de paisajismo y servicios de mantenimiento conexos",
+     "displayView": "8130 - Actividades de paisajismo y servicios de mantenimiento conexos"
+    },
+    {
+     "id": 413,
+     "ciiu": 8211,
+     "description": "Actividades combinadas de servicios administrativos de oficina",
+     "displayView": "8211 - Actividades combinadas de servicios administrativos de oficina"
+    },
+    {
+     "id": 414,
+     "ciiu": 8219,
+     "description": "Fotocopiado, preparación de documentos y otras actividades especializadas de apoyo a oficina",
+     "displayView": "8219 - Fotocopiado, preparación de documentos y otras actividades especializadas de apoyo a oficina"
+    },
+    {
+     "id": 415,
+     "ciiu": 8220,
+     "description": "Actividades de centros de llamadas (Call center)",
+     "displayView": "8220 - Actividades de centros de llamadas (Call center)"
+    },
+    {
+     "id": 416,
+     "ciiu": 8230,
+     "description": "Organización de convenciones y eventos comerciales",
+     "displayView": "8230 - Organización de convenciones y eventos comerciales"
+    },
+    {
+     "id": 417,
+     "ciiu": 8291,
+     "description": "Actividades de agencias de cobranza y oficinas de calificación crediticia",
+     "displayView": "8291 - Actividades de agencias de cobranza y oficinas de calificación crediticia"
+    },
+    {
+     "id": 418,
+     "ciiu": 8292,
+     "description": "Actividades de envase y empaque",
+     "displayView": "8292 - Actividades de envase y empaque"
+    },
+    {
+     "id": 419,
+     "ciiu": 8299,
+     "description": "Otras actividades de servicio de apoyo a las empresas n.c.p.",
+     "displayView": "8299 - Otras actividades de servicio de apoyo a las empresas n.c.p."
+    },
+    {
+     "id": 420,
+     "ciiu": 8411,
+     "description": "Actividades legislativas de la administración pública",
+     "displayView": "8411 - Actividades legislativas de la administración pública"
+    },
+    {
+     "id": 421,
+     "ciiu": 8412,
+     "description": "Actividades ejecutivas de la administración pública",
+     "displayView": "8412 - Actividades ejecutivas de la administración pública"
+    },
+    {
+     "id": 422,
+     "ciiu": 8413,
+     "description": "Regulación de las actividades de organismos que prestan servicios de salud, educativos, culturales y otros servicios sociales, excepto servicios de seguridad social",
+     "displayView": "8413 - Regulación de las actividades de organismos que prestan servicios de salud, educativos, culturales y otros servicios sociales, excepto servicios de seguridad social"
+    },
+    {
+     "id": 423,
+     "ciiu": 8414,
+     "description": "Actividades reguladoras y facilitadoras de la actividad económica",
+     "displayView": "8414 - Actividades reguladoras y facilitadoras de la actividad económica"
+    },
+    {
+     "id": 424,
+     "ciiu": 8415,
+     "description": "Actividades de los otros órganos de control",
+     "displayView": "8415 - Actividades de los otros órganos de control"
+    },
+    {
+     "id": 425,
+     "ciiu": 8421,
+     "description": "Relaciones exteriores",
+     "displayView": "8421 - Relaciones exteriores"
+    },
+    {
+     "id": 426,
+     "ciiu": 8422,
+     "description": "Actividades de defensa",
+     "displayView": "8422 - Actividades de defensa"
+    },
+    {
+     "id": 427,
+     "ciiu": 8423,
+     "description": "Orden público y actividades de seguridad",
+     "displayView": "8423 - Orden público y actividades de seguridad"
+    },
+    {
+     "id": 428,
+     "ciiu": 8424,
+     "description": "Administración de justicia",
+     "displayView": "8424 - Administración de justicia"
+    },
+    {
+     "id": 429,
+     "ciiu": 8430,
+     "description": "Actividades de planes de seguridad social de afiliación obligatoria",
+     "displayView": "8430 - Actividades de planes de seguridad social de afiliación obligatoria"
+    },
+    {
+     "id": 430,
+     "ciiu": 8511,
+     "description": "Educación de la primera infancia",
+     "displayView": "8511 - Educación de la primera infancia"
+    },
+    {
+     "id": 431,
+     "ciiu": 8512,
+     "description": "Educación preescolar",
+     "displayView": "8512 - Educación preescolar"
+    },
+    {
+     "id": 432,
+     "ciiu": 8513,
+     "description": "Educación básica primaria",
+     "displayView": "8513 - Educación básica primaria"
+    },
+    {
+     "id": 433,
+     "ciiu": 8521,
+     "description": "Educación básica secundaria",
+     "displayView": "8521 - Educación básica secundaria"
+    },
+    {
+     "id": 434,
+     "ciiu": 8522,
+     "description": "Educación media académica",
+     "displayView": "8522 - Educación media académica"
+    },
+    {
+     "id": 435,
+     "ciiu": 8523,
+     "description": "Educación media técnica y de formación laboral",
+     "displayView": "8523 - Educación media técnica y de formación laboral"
+    },
+    {
+     "id": 436,
+     "ciiu": 8530,
+     "description": "Establecimientos que combinan diferentes niveles de educación",
+     "displayView": "8530 - Establecimientos que combinan diferentes niveles de educación"
+    },
+    {
+     "id": 437,
+     "ciiu": 8541,
+     "description": "Educación técnica profesional",
+     "displayView": "8541 - Educación técnica profesional"
+    },
+    {
+     "id": 438,
+     "ciiu": 8542,
+     "description": "Educación tecnológica",
+     "displayView": "8542 - Educación tecnológica"
+    },
+    {
+     "id": 439,
+     "ciiu": 8543,
+     "description": "Educación de instituciones universitarias o de escuelas tecnológicas",
+     "displayView": "8543 - Educación de instituciones universitarias o de escuelas tecnológicas"
+    },
+    {
+     "id": 440,
+     "ciiu": 8544,
+     "description": "Educación de universidades",
+     "displayView": "8544 - Educación de universidades"
+    },
+    {
+     "id": 441,
+     "ciiu": 8551,
+     "description": "Formación académica no formal",
+     "displayView": "8551 - Formación académica no formal"
+    },
+    {
+     "id": 442,
+     "ciiu": 8552,
+     "description": "Enseñanza deportiva y recreativa",
+     "displayView": "8552 - Enseñanza deportiva y recreativa"
+    },
+    {
+     "id": 443,
+     "ciiu": 8553,
+     "description": "Enseñanza cultural",
+     "displayView": "8553 - Enseñanza cultural"
+    },
+    {
+     "id": 444,
+     "ciiu": 8559,
+     "description": "Otros tipos de educación n.c.p.",
+     "displayView": "8559 - Otros tipos de educación n.c.p."
+    },
+    {
+     "id": 445,
+     "ciiu": 8560,
+     "description": "Actividades de apoyo a la educación",
+     "displayView": "8560 - Actividades de apoyo a la educación"
+    },
+    {
+     "id": 446,
+     "ciiu": 8610,
+     "description": "Actividades de hospitales y clínicas, con internación",
+     "displayView": "8610 - Actividades de hospitales y clínicas, con internación"
+    },
+    {
+     "id": 447,
+     "ciiu": 8621,
+     "description": "Actividades de la práctica médica, sin internación",
+     "displayView": "8621 - Actividades de la práctica médica, sin internación"
+    },
+    {
+     "id": 448,
+     "ciiu": 8622,
+     "description": "Actividades de la práctica odontológica",
+     "displayView": "8622 - Actividades de la práctica odontológica"
+    },
+    {
+     "id": 449,
+     "ciiu": 8691,
+     "description": "Actividades de apoyo diagnóstico",
+     "displayView": "8691 - Actividades de apoyo diagnóstico"
+    },
+    {
+     "id": 450,
+     "ciiu": 8692,
+     "description": "Actividades de apoyo terapéutico",
+     "displayView": "8692 - Actividades de apoyo terapéutico"
+    },
+    {
+     "id": 451,
+     "ciiu": 8699,
+     "description": "Otras actividades de atención de la salud humana",
+     "displayView": "8699 - Otras actividades de atención de la salud humana"
+    },
+    {
+     "id": 452,
+     "ciiu": 8710,
+     "description": "Actividades de atención residencial medicalizada de tipo general",
+     "displayView": "8710 - Actividades de atención residencial medicalizada de tipo general"
+    },
+    {
+     "id": 453,
+     "ciiu": 8720,
+     "description": "Actividades de atención residencial, para el cuidado de pacientes con retardo mental, enfermedad mental y consumo de sustancias psicoactivas",
+     "displayView": "8720 - Actividades de atención residencial, para el cuidado de pacientes con retardo mental, enfermedad mental y consumo de sustancias psicoactivas"
+    },
+    {
+     "id": 454,
+     "ciiu": 8730,
+     "description": "Actividades de atención en instituciones para el cuidado de personas mayores y\/o discapacitadas",
+     "displayView": "8730 - Actividades de atención en instituciones para el cuidado de personas mayores y\/o discapacitadas"
+    },
+    {
+     "id": 455,
+     "ciiu": 8790,
+     "description": "Otras actividades de atención en instituciones con alojamiento",
+     "displayView": "8790 - Otras actividades de atención en instituciones con alojamiento"
+    },
+    {
+     "id": 456,
+     "ciiu": 8810,
+     "description": "Actividades de asistencia social sin alojamiento para personas mayores y discapacitadas",
+     "displayView": "8810 - Actividades de asistencia social sin alojamiento para personas mayores y discapacitadas"
+    },
+    {
+     "id": 457,
+     "ciiu": 8890,
+     "description": "Otras actividades de asistencia social sin alojamiento",
+     "displayView": "8890 - Otras actividades de asistencia social sin alojamiento"
+    },
+    {
+     "id": 458,
+     "ciiu": 9001,
+     "description": "Creación literaria",
+     "displayView": "9001 - Creación literaria"
+    },
+    {
+     "id": 459,
+     "ciiu": 9002,
+     "description": "Creación musical",
+     "displayView": "9002 - Creación musical"
+    },
+    {
+     "id": 460,
+     "ciiu": 9003,
+     "description": "Creación teatral",
+     "displayView": "9003 - Creación teatral"
+    },
+    {
+     "id": 461,
+     "ciiu": 9004,
+     "description": "Creación audiovisual",
+     "displayView": "9004 - Creación audiovisual"
+    },
+    {
+     "id": 462,
+     "ciiu": 9005,
+     "description": "Artes plásticas y visuales",
+     "displayView": "9005 - Artes plásticas y visuales"
+    },
+    {
+     "id": 463,
+     "ciiu": 9006,
+     "description": "Actividades teatrales",
+     "displayView": "9006 - Actividades teatrales"
+    },
+    {
+     "id": 464,
+     "ciiu": 9007,
+     "description": "Actividades de espectáculos musicales en vivo",
+     "displayView": "9007 - Actividades de espectáculos musicales en vivo"
+    },
+    {
+     "id": 465,
+     "ciiu": 9008,
+     "description": "Otras actividades de espectáculos en vivo",
+     "displayView": "9008 - Otras actividades de espectáculos en vivo"
+    },
+    {
+     "id": 466,
+     "ciiu": 9101,
+     "description": "Actividades de bibliotecas y archivos",
+     "displayView": "9101 - Actividades de bibliotecas y archivos"
+    },
+    {
+     "id": 467,
+     "ciiu": 9102,
+     "description": "Actividades y funcionamiento de museos, conservación de edificios y sitios históricos",
+     "displayView": "9102 - Actividades y funcionamiento de museos, conservación de edificios y sitios históricos"
+    },
+    {
+     "id": 468,
+     "ciiu": 9103,
+     "description": "Actividades de jardines botánicos, zoológicos y reservas naturales",
+     "displayView": "9103 - Actividades de jardines botánicos, zoológicos y reservas naturales"
+    },
+    {
+     "id": 469,
+     "ciiu": 9200,
+     "description": "Actividades de juegos de azar y apuestas",
+     "displayView": "9200 - Actividades de juegos de azar y apuestas"
+    },
+    {
+     "id": 470,
+     "ciiu": 9311,
+     "description": "Gestión de instalaciones deportivas",
+     "displayView": "9311 - Gestión de instalaciones deportivas"
+    },
+    {
+     "id": 471,
+     "ciiu": 9312,
+     "description": "Actividades de clubes deportivos",
+     "displayView": "9312 - Actividades de clubes deportivos"
+    },
+    {
+     "id": 472,
+     "ciiu": 9319,
+     "description": "Otras actividades deportivas",
+     "displayView": "9319 - Otras actividades deportivas"
+    },
+    {
+     "id": 473,
+     "ciiu": 9321,
+     "description": "Actividades de parques de atracciones y parques temáticos",
+     "displayView": "9321 - Actividades de parques de atracciones y parques temáticos"
+    },
+    {
+     "id": 474,
+     "ciiu": 9329,
+     "description": "Otras actividades recreativas y de esparcimiento n.c.p.",
+     "displayView": "9329 - Otras actividades recreativas y de esparcimiento n.c.p."
+    },
+    {
+     "id": 475,
+     "ciiu": 9411,
+     "description": "Actividades de asociaciones empresariales y de empleadores",
+     "displayView": "9411 - Actividades de asociaciones empresariales y de empleadores"
+    },
+    {
+     "id": 476,
+     "ciiu": 9412,
+     "description": "Actividades de asociaciones profesionales",
+     "displayView": "9412 - Actividades de asociaciones profesionales"
+    },
+    {
+     "id": 477,
+     "ciiu": 9420,
+     "description": "Actividades de sindicatos de empleados",
+     "displayView": "9420 - Actividades de sindicatos de empleados"
+    },
+    {
+     "id": 478,
+     "ciiu": 9491,
+     "description": "Actividades de asociaciones religiosas",
+     "displayView": "9491 - Actividades de asociaciones religiosas"
+    },
+    {
+     "id": 479,
+     "ciiu": 9492,
+     "description": "Actividades de asociaciones políticas",
+     "displayView": "9492 - Actividades de asociaciones políticas"
+    },
+    {
+     "id": 480,
+     "ciiu": 9499,
+     "description": "Actividades de otras asociaciones n.c.p.",
+     "displayView": "9499 - Actividades de otras asociaciones n.c.p."
+    },
+    {
+     "id": 481,
+     "ciiu": 9511,
+     "description": "Mantenimiento y reparación de computadores y de equipo periférico",
+     "displayView": "9511 - Mantenimiento y reparación de computadores y de equipo periférico"
+    },
+    {
+     "id": 482,
+     "ciiu": 9512,
+     "description": "Mantenimiento y reparación de equipos de comunicación",
+     "displayView": "9512 - Mantenimiento y reparación de equipos de comunicación"
+    },
+    {
+     "id": 483,
+     "ciiu": 9521,
+     "description": "Mantenimiento y reparación de aparatos electrónicos de consumo",
+     "displayView": "9521 - Mantenimiento y reparación de aparatos electrónicos de consumo"
+    },
+    {
+     "id": 484,
+     "ciiu": 9522,
+     "description": "Mantenimiento y reparación de aparatos y equipos domésticos y de jardinería",
+     "displayView": "9522 - Mantenimiento y reparación de aparatos y equipos domésticos y de jardinería"
+    },
+    {
+     "id": 485,
+     "ciiu": 9523,
+     "description": "Reparación de calzado y artículos de cuero",
+     "displayView": "9523 - Reparación de calzado y artículos de cuero"
+    },
+    {
+     "id": 486,
+     "ciiu": 9524,
+     "description": "Reparación de muebles y accesorios para el hogar",
+     "displayView": "9524 - Reparación de muebles y accesorios para el hogar"
+    },
+    {
+     "id": 487,
+     "ciiu": 9529,
+     "description": "Mantenimiento y reparación de otros efectos personales y enseres domésticos",
+     "displayView": "9529 - Mantenimiento y reparación de otros efectos personales y enseres domésticos"
+    },
+    {
+     "id": 488,
+     "ciiu": 9601,
+     "description": "Lavado y limpieza, incluso la limpieza en seco, de productos textiles y de piel",
+     "displayView": "9601 - Lavado y limpieza, incluso la limpieza en seco, de productos textiles y de piel"
+    },
+    {
+     "id": 489,
+     "ciiu": 9602,
+     "description": "Peluquería y otros tratamientos de belleza",
+     "displayView": "9602 - Peluquería y otros tratamientos de belleza"
+    },
+    {
+     "id": 490,
+     "ciiu": 9603,
+     "description": "Pompas fúnebres y actividades relacionadas",
+     "displayView": "9603 - Pompas fúnebres y actividades relacionadas"
+    },
+    {
+     "id": 491,
+     "ciiu": 9609,
+     "description": "Otras actividades de servicios personales n.c.p.",
+     "displayView": "9609 - Otras actividades de servicios personales n.c.p."
+    },
+    {
+     "id": 492,
+     "ciiu": 9700,
+     "description": "Actividades de los hogares individuales como empleadores de personal doméstico",
+     "displayView": "9700 - Actividades de los hogares individuales como empleadores de personal doméstico"
+    },
+    {
+     "id": 493,
+     "ciiu": 9810,
+     "description": "Actividades no diferenciadas de los hogares individuales como productores de bienes para uso propio",
+     "displayView": "9810 - Actividades no diferenciadas de los hogares individuales como productores de bienes para uso propio"
+    },
+    {
+     "id": 494,
+     "ciiu": 9820,
+     "description": "Actividades no diferenciadas de los hogares individuales como productores de servicios para uso propio",
+     "displayView": "9820 - Actividades no diferenciadas de los hogares individuales como productores de servicios para uso propio"
+    }
+   ]

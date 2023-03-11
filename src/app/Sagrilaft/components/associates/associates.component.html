@@ -1,0 +1,63 @@
+<div class="associates">
+    <mat-card-title>Asociados o Accionistas</mat-card-title>
+    <mat-card-subtitle>1. Identificación de asociados o accionistas que tengan directa o indirectamente mas del 5% del
+        capital social, aporte o participación (si requiere más espacio anexe relación)</mat-card-subtitle>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+        <article class="table-header">
+            <button class="add" mat-fab color="primary" (click)="addRow()">
+                <mat-icon>add</mat-icon>
+            </button>
+        </article>
+        <table mat-table [dataSource]="dataSource">
+            <ng-container [matColumnDef]="col.key" *ngFor="let col of columnsSchema">
+                <th mat-header-cell *matHeaderCellDef>
+                    {{ col.label }}
+                </th>
+                <td mat-cell *matCellDef="let element">
+                    <div [ngSwitch]="col.type" *ngIf="!element.isEdit">
+                        <div class="btn-edit" *ngSwitchCase="'isEdit'">
+                            <button mat-raised-button (click)="element.isEdit = !element.isEdit">
+                                Editar
+                            </button>
+                            <button mat-raised-button class="button-remove" (click)="removeRow(element.id)">
+                                Borrar
+                            </button>
+                        </div>
+                        <span *ngSwitchCase="'date'">
+                            {{ element[col.key] | date: 'mediumDate' }}
+                        </span>
+                        <span *ngSwitchDefault>
+                            {{ element[col.key] }}
+                        </span>
+                    </div>
+                    <div [ngSwitch]="col.type" *ngIf="element.isEdit">
+                        <div *ngSwitchCase="'isSelected'"></div>
+                        <div class="btn-edit" *ngSwitchCase="'isEdit'">
+                            <button mat-stroked-button color="primary" (click)="element.isEdit = !element.isEdit">
+                                Hecho
+                            </button>
+                        </div>
+                        <mat-form-field appearance="fill" *ngSwitchCase="'dropdown'">
+                            <mat-select [(ngModel)]="element[col.key]">
+                                <mat-option value="CC">Cédula de ciudadanía</mat-option>
+                                <mat-option value="CE">Cédula de extranjería</mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <section *ngSwitchCase="'checkbox'">
+                            <mat-checkbox [(ngModel)]="element[col.key]">PEP</mat-checkbox>
+                        </section>
+                        <mat-form-field class="form-input" *ngSwitchDefault>
+                            <input [type]="col.type" matInput [(ngModel)]="element[col.key]" />
+                        </mat-form-field>
+                    </div>
+                </td>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+        <div class="actions" align="center">
+            <button mat-raised-button color="primary" type="button" (click)="onSubmit()">Guardar</button>
+        </div>
+    </mat-card-content>
+</div>

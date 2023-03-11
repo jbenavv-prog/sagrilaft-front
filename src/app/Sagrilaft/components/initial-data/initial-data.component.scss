@@ -1,0 +1,103 @@
+.row {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.col {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mat-divider {
+    position: inherit !important;
+    margin-bottom: 15px;
+}
+
+.mat-checkbox {
+    margin: 0 12px;
+}
+
+.label-radio {
+    margin-bottom: 1px;
+}
+
+.footer-text {
+    text-align: justify;
+    padding-right: 50px;
+}
+
+::ng-deep {
+    .swal-button {
+        padding: 7px 19px;
+        border-radius: 2px;
+        background-color: #4962B3;
+        font-size: 12px;
+        border: 1px solid #3e549a;
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .swal-button:not([disabled]):hover {
+        background-color: #5c80de;
+    }
+}
+
+table {
+    width: 100%;
+    height: 95%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td.description,
+th.description {
+    width: 25%;
+}
+
+td.ciiu,
+th.ciiu {
+    width: 10%;
+}
+
+td.select,
+th.select {
+    width: 5%;
+}
+
+.mat-paginator {
+    margin-bottom: 20px;
+}
+
+.example-chip-list {
+    width: 100%;
+}
+
+.mat-chip {
+    height: 60px;
+}
+
+.mat-chip-remove {
+    display: contents;
+}
+
+
+.mat-chip.mat-standard-chip .mat-chip-remove {
+    color: gray;
+}
+
+.mat-standard-chip.mat-chip-with-trailing-icon {
+    padding-right: 3px;
+    width: 95%;
+}
+
+.chip-text {
+    margin-right: 10px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    width: 96%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

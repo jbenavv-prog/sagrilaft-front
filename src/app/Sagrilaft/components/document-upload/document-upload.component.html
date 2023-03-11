@@ -1,0 +1,118 @@
+<div class="document-upload">
+    <mat-card-title>Carga Documentos</mat-card-title>
+    <mat-divider></mat-divider>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col">
+                <mat-card-subtitle>Documentos requeridos (no aplica para entidades públicas)</mat-card-subtitle>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">Certificado de Existencia y Representación Legal o certificado de Personería Jurídica no
+                mayor a 30 días
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <input id="certfExist" (change)="handleFileInput($event)" type="file">
+                </div>
+            </div>
+            <div class="col">
+                <button *ngIf="docsURL?.certfExistURL" mat-icon-button color="primary" (click)="openDoc($event)"
+                    type="button">
+                    <mat-icon id="certfExistURL">visibility</mat-icon>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Fotocopia de documento de identidad de la persona natural y/o representante legal
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <input id="identDoc" (change)="handleFileInput($event)" type="file">
+                </div>
+            </div>
+            <div class="col">
+                <button *ngIf="docsURL?.identDocURL" mat-icon-button color="primary" (click)="openDoc($event)"
+                    type="button">
+                    <mat-icon id="identDocURL">visibility</mat-icon>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Copia del Registro Único Tributario R.U.T. todas las páginas
+            </div>
+            <div class="col">
+                <input id="taxReg" (change)="handleFileInput($event)" type="file">
+            </div>
+            <div class="col">
+                <button *ngIf="docsURL?.taxRegURL" mat-icon-button color="primary" (click)="openDoc($event)"
+                    type="button">
+                    <mat-icon id="taxRegURL">visibility</mat-icon>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Copia de los estados financieros de los últimos dos ejercicios y declaración de renta de estos periodos
+            </div>
+            <div class="col">
+                <input id="financialStatements" (change)="handleFileInput($event)" type="file">
+            </div>
+            <div class="col">
+                <button *ngIf="docsURL?.financialStatementsURL" mat-icon-button color="primary" (click)="openDoc($event)"
+                    type="button">
+                    <mat-icon id="financialStatementsURL">visibility</mat-icon>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Certificación de beneficiarios finales, de acuerdo con el Art.631-5 del Estatuto Tributario, suscrito
+                por el revisor fiscal o representante legal.
+
+            </div>
+            <div class="col">
+                <input type="file" id="beneficiaries" (change)="handleFileInput($event)">
+            </div>
+            <div class="col">
+                <button *ngIf="docsURL?.beneficiariesURL" mat-icon-button color="primary" (click)="openDoc($event)"
+                    type="button">
+                    <mat-icon id="beneficiariesURL">visibility</mat-icon>
+                </button>
+            </div>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="row">
+            <div class="col">
+                <mat-card-subtitle>Datos de quién diligencia el formulario</mat-card-subtitle>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <mat-form-field appearance="fill">
+                    <mat-label>Nombre</mat-label>
+                    <input matInput formControlName="name">
+                </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field appearance="fill">
+                    <mat-label>Teléfono</mat-label>
+                    <input matInput formControlName="phone">
+                </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput formControlName="email">
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="actions" align="center">
+            <button mat-raised-button color="primary" type="submit">Guardar</button>
+        </div>
+    </form>
+</div>
+<mat-progress-bar *ngIf="isLoading" mode="indeterminate"></mat-progress-bar>

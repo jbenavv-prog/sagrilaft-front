@@ -1,0 +1,484 @@
+<div class="initial-data">
+    <mat-card-title>Datos Iniciales</mat-card-title>
+    <mat-card-subtitle>Datos Iniciales</mat-card-subtitle>
+    <mat-card-content>
+        <mat-divider></mat-divider>
+        <form [formGroup]="form" novalidate (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Fecha de diligenciamiento</mat-label>
+                        <input matInput [matDatepicker]="dp" formControlName="date">
+                        <mat-hint>DD/MM/YYYY</mat-hint>
+                        <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+                        <mat-datepicker #dp></mat-datepicker>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-radio-group formControlName="requestType">
+                        <mat-label>Tipo de solicitud</mat-label><br>
+                        <mat-radio-button value="new" [disabled]="!canCreate">Nuevo</mat-radio-button><br>
+                        <mat-radio-button value="update" [disabled]="!canUpdate">Actualización</mat-radio-button>
+                        <br>
+                    </mat-radio-group>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Nombre o Razón Social</mat-label>
+                        <input matInput formControlName="businessName">
+                        <mat-error *ngIf="form.controls['businessName'].hasError('required')">
+                            ¡Nombre o Razón Social <strong>requerido!</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>NIT</mat-label>
+                        <input matInput formControlName="nit" type="number">
+                        <mat-error *ngIf="form.controls['businessName'].hasError('required')">
+                            ¡NIT <strong>requerido!</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>DV</mat-label>
+                        <input matInput formControlName="dv" maxlength="1">
+                        <mat-error *ngIf="form.controls['businessName'].hasError('required')">
+                            ¡DV <strong>requerido!</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col col-md-4">
+                    <mat-radio-group formControlName="companyType">
+                        <mat-label>Tipo de Empresa</mat-label><br>
+                        <mat-radio-button value="Pública">Pública</mat-radio-button><br>
+                        <mat-radio-button value="Privada">Privada</mat-radio-button><br>
+                        <mat-radio-button value="Mixta">Mixta</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <div class="col">
+                    <!-- <span>Actividades Económicas</span> -->
+                    <mat-form-field class="example-chip-list" appearance="fill">
+                        <mat-label>Actividades Económicas. Puedes Buscar por código CIIU o palabras claves</mat-label>
+                        <mat-chip-list #chipList>
+                            <mat-chip *ngFor="let econActivity of econActivitiesArray;let indx=index;"
+                                [selectable]="selectable" [removable]="removable" (removed)="remove(econActivity,indx)">
+                                <div class="chip-text">
+                                    {{econActivity.displayView}}
+                                </div>
+                                <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                            </mat-chip>
+                            <input placeholder="Nueva..." #economicActivityInput [formControl]="econActivityCtrl"
+                                [matAutocomplete]="auto" [matChipInputFor]="chipList"
+                                [matChipInputSeparatorKeyCodes]="separatorKeysCodes" [matChipInputAddOnBlur]="addOnBlur"
+                                (matChipInputTokenEnd)="add($event)">
+                        </mat-chip-list>
+                        <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+                            <mat-option *ngFor="let econActivity of filteredEconActivities | async"
+                                [value]="econActivity">
+                                {{econActivity.displayView}}
+                            </mat-option>
+                        </mat-autocomplete>
+                    </mat-form-field>
+                    <!-- <pre>{{economicActivitesArray|json}}</pre> -->
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-radio-group formControlName="contributorType">
+                        <mat-label>Tipo de Contribuyente</mat-label><br>
+                        <mat-radio-button value="Régimen Simplificado">Régimen
+                            Simplificado</mat-radio-button><br>
+                        <mat-radio-button value="Régimen Común">Régimen Común
+                        </mat-radio-button><br>
+                        <mat-radio-button value="Otro">Otro</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <ng-container *ngIf="contributorType.value == 'Otro'">
+                    <div class="col">
+                        <mat-form-field appearance="fill">
+                            <mat-label>Cual?</mat-label>
+                            <input matInput formControlName="otherContributorType">
+                            <mat-error *ngIf="form.controls['contributorType'].hasError('required')">
+                                ¡Tipo de Contribuyente <strong>requerido!</strong>
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                </ng-container>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-radio-group formControlName="isRen">
+                        <mat-label>Autoretenedor de Ren</mat-label><br>
+                        <mat-radio-button [value]="true">Si</mat-radio-button><br>
+                        <mat-radio-button [value]="false">No</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <ng-container *ngIf="isRen.value">
+                    <div class="col">
+                        <mat-form-field appearance="fill">
+                            <mat-label>*Resolución No.</mat-label>
+                            <input matInput formControlName="resolutionNumberR" type="number">
+                        </mat-form-field>
+                    </div>
+                </ng-container>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-radio-group formControlName="isGreatContributor">
+                        <mat-label>Gran Contribuyente</mat-label><br>
+                        <mat-radio-button [value]="true">Si</mat-radio-button><br>
+                        <mat-radio-button [value]="false">No</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <ng-container *ngIf="isGreatContributor.value">
+                    <div class="col">
+                        <mat-form-field appearance="fill">
+                            <mat-label>*Resolución No.</mat-label>
+                            <input matInput formControlName="resolutionNumberG" type="number">
+                        </mat-form-field>
+                    </div>
+                </ng-container>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-radio-group formControlName="isIndustryManager">
+                        <mat-label>Responsable de Impo. Industria y Co</mat-label><br>
+                        <mat-radio-button [value]="true">Si</mat-radio-button><br>
+                        <mat-radio-button [value]="false">No</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <ng-container *ngIf="isIndustryManager.value">
+                    <div class="col">
+                        <mat-form-field appearance="fill">
+                            <mat-label>*Ciudad</mat-label>
+                            <input matInput formControlName="cityIndustryManager">
+                        </mat-form-field>
+                    </div>
+                </ng-container>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-radio-group formControlName="isIvaManager">
+                        <mat-label>Resposable de I.V.A</mat-label><br>
+                        <mat-radio-button [value]="true">Si</mat-radio-button><br>
+                        <mat-radio-button [value]="false">No</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <ng-container *ngIf="isIvaManager.value">
+                    <div class="col">
+                        <mat-form-field appearance="fill">
+                            <mat-label>*Tarifa</mat-label>
+                            <input matInput formControlName="ivaTariff">
+                        </mat-form-field>
+                    </div>
+                </ng-container>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-radio-group formControlName="isElectrBill">
+                        <mat-label>Radicación Factura Electrónica</mat-label><br>
+                        <mat-radio-button [value]="true">Si</mat-radio-button><br>
+                        <mat-radio-button [value]="false">No</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <ng-container *ngIf="isElectrBill.value">
+                    <div class="col">
+                        <mat-form-field appearance="fill">
+                            <mat-label>*Correo Radicación</mat-label>
+                            <input matInput formControlName="electrBillEmail">
+                            <mat-error *ngIf="form.controls['electrBillEmail'].hasError('email')">
+                                ¡formato de correo <strong>incorrecto!</strong>
+                            </mat-error>
+                            <mat-error *ngIf="form.controls['electrBillEmail'].hasError('required')">
+                                ¡correo <strong>requerido!</strong>
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                </ng-container>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-radio-group formControlName="isWebInvoice">
+                        <mat-label>La factura se radica por página web</mat-label><br>
+                        <mat-radio-button [value]="true">Si</mat-radio-button><br>
+                        <mat-radio-button [value]="false">No</mat-radio-button><br>
+                    </mat-radio-group>
+                </div>
+                <ng-container *ngIf="isWebInvoice.value">
+                    <div class="col">
+                        <mat-form-field appearance="fill">
+                            <mat-label>*¿Cuál es la página web?</mat-label>
+                            <input matInput formControlName="webInvoicePage">
+                        </mat-form-field>
+                    </div>
+                </ng-container>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Contacto Cartera - Nombre </mat-label>
+                        <input matInput formControlName="contactPortfName">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>*Correo</mat-label>
+                        <input matInput formControlName="contactPortfEmail">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Contacto Emisión Certf. Retenciones </mat-label>
+                        <input matInput formControlName="contactCertName">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>*Correo</mat-label>
+                        <input matInput formControlName="contactCertEmail">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Fecha de Constitución en Cámara de Comercio</mat-label>
+                        <input matInput [matDatepicker]="picker" formControlName="commerceDate">
+                        <mat-hint>DD/MM/YYYY</mat-hint>
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Correo Empresarial</mat-label>
+                        <input matInput formControlName="businessEmail">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <label>Oficina Principal</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Dirección</mat-label>
+                        <input matInput formControlName="mainAddress">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>País</mat-label>
+                        <mat-select (selectionChange)="getStateByCountry($event.value, 'main', '')"
+                            formControlName="mainCountry">
+                            <mat-option *ngFor="let item of mainCountryArray" value="{{item}}">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Departamento</mat-label>
+                        <mat-select (selectionChange)="getCityByState($event.value, 'main')"
+                            formControlName="mainState">
+                            <mat-option *ngFor="let item of mainStateArray" value="{{item}}">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Ciudad</mat-label>
+                        <mat-select formControlName="mainCity">
+                            <mat-option *ngFor="let item of mainCitiesArray" value="{{item}}">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Teléfono</mat-label>
+                        <input matInput formControlName="mainPhone">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <label>Sucursal/Agencia</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Dirección</mat-label>
+                        <input matInput formControlName="branchAddress">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>País</mat-label>
+                        <mat-select (selectionChange)="getStateByCountry($event.value, 'branch', '')"
+                            formControlName="branchCountry">
+                            <mat-option *ngFor="let item of branchCountryArray" value="{{item}}">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Departamento</mat-label>
+                        <mat-select (selectionChange)="getCityByState($event.value, 'branch')"
+                            formControlName="branchState">
+                            <mat-option *ngFor="let item of branchStateArray" value="{{item}}">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Ciudad</mat-label>
+                        <mat-select formControlName="branchCity">
+                            <mat-option *ngFor="let item of branchCitiesArray" value="{{item}}">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Teléfono</mat-label>
+                        <input matInput formControlName="branchPhone">
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <label>Representante Legal</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Nombre Representante Legal.</mat-label>
+                        <input matInput formControlName="legalName">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Tipo de Documento</mat-label>
+                        <mat-select formControlName="legalDocType">
+                            <mat-option *ngFor="let item of documentTypes" [value]="item">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>No.</mat-label>
+                        <input matInput formControlName="legalDocNum">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <section>
+                        <p>
+                            <mat-checkbox formControlName="pepLegal">PEP</mat-checkbox>
+                        </p>
+                        <p>
+                            <mat-checkbox formControlName="pepLegalFamily">Familiar PEP</mat-checkbox>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col">
+                    <label>Representante Legal Suplente</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Representante Legal Suplente.</mat-label>
+                        <input matInput formControlName="substName">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Tipo de Documento</mat-label>
+                        <mat-select formControlName="substDocType">
+                            <mat-option *ngFor="let item of documentTypes" [value]="item">{{item}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field appearance="fill">
+                        <mat-label>No.</mat-label>
+                        <input matInput formControlName="substDocNum">
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <section>
+                        <p>
+                            <mat-checkbox formControlName="pepSubst">PEP</mat-checkbox>
+                        </p>
+                        <p>
+                            <mat-checkbox formControlName="pepSubstFamily">Familiar PEP</mat-checkbox>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col footer-text">
+                    <p>(1) ComWare se regirá por la definición de PEP que trae el Decreto 830 de 2021, o por cualquier
+                        norma que lo modifique o sustituya. Personas Expuestas Políticamente (PEP): significa personas
+                        expuestas políticamente, es decir, son los servidores públicos de cualquier sistema de
+                        nomenclatura y clasificación de empleos de la administración pública nacional y territorial,
+                        cuando en los cargos que ocupen, tengan en las funciones del área a la que pertenecen o en las
+                        de la ficha del empleo que ocupan, bajo su responsabilidad directa o por delegación, la
+                        dirección general, de formulación de políticas institucionales y de adopción de planes,
+                        programas y proyectos, el manejo directo de bienes, dineros o valores del Estado. Estos pueden
+                        ser a través de ordenación de gasto, contratación pública, gerencia de proyectos de inversión,
+                        pagos, liquidaciones, administración de bienes muebles e inmuebles. Incluye también a las PEP
+                        Extranjeras y las PEP de Organizaciones Internacionales.</p>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="row">
+                <div class="col footer-text">
+                    <p>
+                        (2) Es Familiar de una Persona Expuesta Politicamente (sociedad conyugal, de hecho, o de
+                        derecho; familiares hasta segundo grado de consanguinidad, primero afinidad y primero civil) La
+                        calidad de Personas Expuestas Políticamente (PEP) se mantendrá en el tiempo durante el ejercicio
+                        del cargo y por dos (2) años más desde la dejación, renuncia, despido o declaración de
+                        insubsistencia del nombramiento, o de cualquier otra forma de desvinculación, o terminación del
+                        contrato"
+                    </p>
+                </div>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="actions" align="center">
+                <button *ngIf="canCreate" mat-raised-button color="primary" type="submit">Guardar</button>
+                <button *ngIf="canUpdate" mat-raised-button color="primary" type="submit">Actualizar</button>
+            </div>
+        </form>
+    </mat-card-content>
+</div>
+<mat-progress-bar *ngIf="isLoading" mode="indeterminate"></mat-progress-bar>
